@@ -94,4 +94,50 @@ test.describe("Unified Vehicles API Tests", () => {
         // Ensure that the extra field request worked by verifying at least one vehicle has the equivalent_gas_vehicle data
         expect(hasEquivalentGasVehicle).toBe(true);
     });
+
+    test("GET /unified-vehicles/aggregate by make", async ({ request }) => {
+        // Step 1: Retrieve authentication token
+        const token = await getBearerToken();
+
+        // Step 2: Make GET request to the aggregate endpoint
+        const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+            params: {
+                attrId: "make",
+                attrLabel: "make",
+                labelTemplate: "Make: __make__"
+            },
+            headers: {
+                Authorization: `Bearer ${token}`,
+                "User-Agent": "PostmanRuntime/7.51.1",
+                Accept: "*/*",
+            },
+        });
+
+        // Step 3: Verify successful status code
+        expect(response.status()).toBe(200);
+
+        // Step 4: Parse response body
+        const body = await response.json();
+
+        // Step 5: Assert top-level structure
+        expect(body).toBeTruthy();
+        expect(body.code).toBe(200);
+        expect(body.message).toBe(""); // Ensure message is typically empty string on success
+        expect(Array.isArray(body.vehicles)).toBe(true);
+        expect(body.vehicles.length).toBeGreaterThan(0);
+
+        // Step 6: Validate structure of individual make aggregations
+        const sampleMake = body.vehicles[0];
+        expect(sampleMake).toHaveProperty("id");
+        expect(sampleMake).toHaveProperty("label");
+
+        // Step 7: Verify all items have expected structure and label formatting
+        for (const item of body.vehicles) {
+            expect(typeof item.id).toBe("string");
+            expect(typeof item.label).toBe("string");
+
+            // Validate the labelTemplate was applied correctly
+            expect(item.label).toBe(`Make: ${item.id}`);
+        }
+    });
 });
