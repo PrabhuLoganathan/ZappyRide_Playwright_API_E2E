@@ -1,0 +1,182 @@
+{
+  "code": 200,
+  "message": "",
+  "location": {
+    "country": "United States",
+    "section": "West North Central",
+    "region": "Kansas",
+    "district": "Anderson County",
+    "municipality": "Colony",
+    "postcode": "66015",
+    "longitude": "-95.41319900",
+    "latitude": "38.07484000",
+    "nearby_postcodes": [
+      "66015",
+      "66091",
+      "66749"
+    ],
+    "power_supplier": [
+      {
+        "name": "Evergy Kansas Central",
+        "acronym": "EV-KSC",
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/Evergy.png"
+      },
+      {
+        "name": "Heartland Rural Elec Coop, Inc",
+        "acronym": null,
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/NotAvailable.png"
+      },
+      {
+        "name": "Kansas Gas & Electric Co",
+        "acronym": null,
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/NotAvailable.png"
+      },
+      {
+        "name": "Lyon-Coffey Electric Coop, Inc",
+        "acronym": null,
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/NotAvailable.png"
+      }
+    ],
+    "regional_fuel_cost": [
+      {
+        "gasoline": 3.166,
+        "diesel": 3.515,
+        "electricity": 13.04,
+        "gasoline_tax": 24.03,
+        "diesel_tax": 26.03,
+        "commercial_electricity": 10.5,
+        "industrial_electricity": 8.1,
+        "transportation_electricity": null,
+        "alternative_fuel_premium_gasoline": null,
+        "alternative_fuel_premium_diesel": null,
+        "alternative_fuel_premium_lpg": null
+      }
+    ],
+    "regional_electricity": [
+      {
+        "emissions": {
+          "emissions_co2": 401.4,
+          "emissions_so2": 0.1,
+          "emissions_nox": 0.3,
+          "emissions_co2_carbon_credit_calculation": []
+        },
+        "power_mix": {
+          "coal": 0.49,
+          "petroleum": 0.0,
+          "nuclear": 0.17,
+          "hydro": 0.0,
+          "wind": 0.3,
+          "solar": 0.0,
+          "biomass": 0.0,
+          "other": 0.0,
+          "natural_gas": 0.04
+        }
+      }
+    ],
+    "regional_financial_references": [
+      {
+        "rates": null,
+        "sales_tax": {
+          "region": 6.5,
+          "combined": 8.66,
+          "avg_local": 2.16
+        },
+        "ev_registration_fees": {
+          "add_on_registration_fees": 100,
+          "registration_fees": 30
+        },
+        "ice_insurance_annual_premium": 1594.0,
+        "doc_prep_fees": 399
+      }
+    ],
+    "national_fuel_cost": [
+      {
+        "gasoline": 3.904,
+        "diesel": 5.178,
+        "electricity": 14.47,
+        "gasoline_tax": 18.4,
+        "diesel_tax": 24.4,
+        "commercial_electricity": 11.77,
+        "industrial_electricity": 7.5,
+        "transportation_electricity": 10.84
+      }
+    ],
+    "national_electricity": [
+      {
+        "emissions": {
+          "emissions_co2": 388.0,
+          "emissions_so2": 0.255,
+          "emissions_nox": 0.302
+        },
+        "power_mix": {
+          "coal": 0.193,
+          "petroleum": 0.004,
+          "nuclear": 0.197,
+          "hydro": 0.073,
+          "wind": 0.084,
+          "solar": 0.023,
+          "biomass": 0.014,
+          "other": 0.003,
+          "natural_gas": 0.405
+        }
+      }
+    ],
+    "national_financial_references": [
+      {
+        "rates": {
+          "sofr": 4.81
+        },
+        "sales_tax": null,
+        "ev_registration_fees": null,
+        "ice_insurance_annual_premium": 1681.0,
+        "doc_prep_fees": null
+      }
+    ],
+    "carbon_credits": [],
+    "ratios": [
+      {
+        "name": "fuel_energy_economic_ratio_diesel",
+        "description": "diesel",
+        "value": 5.0
+      },
+      {
+        "name": "fuel_energy_economic_ratio_gasoline",
+        "description": "gas",
+        "value": 3.4
+      },
+      {
+        "name": "fuel_energy_economic_ratio_lpg",
+        "description": "lpg",
+        "value": 5.0
+      },
+      {
+        "name": "mpgeConversion",
+        "description": "N/A",
+        "value": 0.0
+      },
+      {
+        "name": "energyDensity",
+        "description": "MJ per kWh",
+        "value": 3.6
+      },
+      {
+        "name": "cad_per_usd",
+        "description": "CA to USD Conversion",
+        "value": 1.36
+      },
+      {
+        "name": "ca_to_us_cost_adjustment",
+        "description": "CA to USD Cost Adjustment",
+        "value": 1.05
+      }
+    ]
+  }
+}

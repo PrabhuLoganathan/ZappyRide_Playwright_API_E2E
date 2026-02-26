@@ -1,0 +1,2726 @@
+[
+  {
+    "outputs": {
+      "endUserIn": {
+        "userName": "minh.vu@jdpa.com",
+        "password": "Password!123",
+        "roleName": "Client User"
+      },
+      "overview": {
+        "default": {
+          "summary": {
+            "title": "Workplace Summary",
+            "lifetimeCostTitle": "in lifetime costs",
+            "lifetimeSavings": "$295,445",
+            "upfrontCostsTitle": "in upfront costs",
+            "upfrontCost": "$3,803",
+            "monthlyCostsTitle": "in monthly costs",
+            "monthlyCost": "$2,083",
+            "incentives": "in incentives",
+            "incentivesValue": "$21,149",
+            "in revenue": "in revenue",
+            "revenue": ""
+          },
+          "leftAlertMessage": "Overview_Charging_scenario costs $104,470 in the first year",
+          "rightAlertMessage": "Overview_Charging_scenario costs $440,936 over 10 years",
+          "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+          "costsOverTimeMessage": "View your scenarios’ total expenses over time.",
+          "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+          "totalCostsTitle": "Total Costs",
+          "totalCostMessage": "A look at the costs for your scenario broken down by category.",
+          "totalCostsChart": "totalCostsChart.png",
+          "fleetCostsTitle": "Charging Costs Summary",
+          "fleetCostsTableHeaders": [
+            [
+              "",
+              "",
+              "Overview_Charging_scenario"
+            ]
+          ],
+          "fleetCostsCollapseRows": [
+            [
+              "Electricity",
+              "",
+              "$479,429"
+            ],
+            [
+              "Chargers",
+              "",
+              "$65,936"
+            ],
+            [
+              "Charger Operations",
+              "",
+              "$375,000"
+            ],
+            [
+              "Incentives",
+              "",
+              "-$9,774"
+            ]
+          ],
+          "fleetCostsChargersExpandRows":[
+            [
+              "",
+              "Cash / Down payments",
+              "$5,250"
+            ],
+            [
+              "",
+              "Principal",
+              "$0"
+            ],
+            [
+              "",
+              "Taxes & Fees",
+              "$389"
+            ],
+            [
+              "",
+              "Interest",
+              "$0"
+            ],
+            [
+              "",
+              "Charger Resale",
+              "-$1,034"
+            ],
+            [
+              "",
+              "Buyout",
+              "$0"
+            ],
+            [
+              "",
+              "Permitting",
+              "$750"
+            ],
+            [
+              "",
+              "Panel Upgrade",
+              "$6,750"
+            ],
+            [
+              "",
+              "Trenching",
+              "$8,750"
+            ],
+            [
+              "",
+              "Concrete Slab",
+              "$81"
+            ],
+            [
+              "",
+              "Installation",
+              "$45,000"
+            ]
+          ],
+          "fleetCostsChargerOperationsExpandRows": [
+            [
+              "",
+              "Maintenance",
+              "$60,000"
+            ],
+            [
+              "",
+              "Insurance",
+              "$180,000"
+            ],
+            [
+              "",
+              "Networking",
+              "$45,000"
+            ],
+            [
+              "",
+              "Warranty",
+              "$90,000"
+            ],
+            [
+              "",
+              "Revenue",
+              "$0"
+            ]
+          ],
+          "fleetCostsLastRowTable":[
+            [
+              "Total",
+              "",
+              "$910,590"
+            ]
+          ]
+        },
+        "coverFuelCost": {
+          "summary": {
+            "title": "Workplace Summary",
+            "lifetimeCostTitle": "in lifetime costs",
+            "lifetimeSavings": "-$16,086",
+            "upfrontCostsTitle": "in upfront costs",
+            "upfrontCost": "$3,803",
+            "monthlyCostsTitle": "in monthly costs",
+            "monthlyCost": "-$513",
+            "incentives": "in incentives",
+            "incentivesValue": "$21,149",
+            "in revenue": "in revenue",
+            "revenue": "$311,531"
+          },
+          "leftAlertMessage": "Overview_Charging_scenario costs $39,981 in the first year",
+          "rightAlertMessage": "Overview_Charging_scenario costs -$16,086 over 10 years",
+          "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+          "costsOverTimeMessage": "View your scenarios’ total expenses over time.",
+          "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+          "totalCostsTitle": "Total Costs",
+          "totalCostMessage": "A look at the costs for your scenario broken down by category.",
+          "totalCostsChart": "totalCostsChart.png",
+          "fleetCostsTitle": "Charging Costs Summary",
+          "fleetCostsTableHeaders": [
+            [
+              "",
+              "",
+              "Overview_Charging_scenario"
+            ]
+          ],
+          "fleetCostsCollapseRows": [
+            [
+              "Electricity",
+              "",
+              "$311,531"
+            ],
+            [
+              "Chargers",
+              "",
+              "$45,445"
+            ],
+            [
+              "Charger Operations",
+              "",
+              "-$61,531"
+            ],
+            [
+              "Incentives",
+              "",
+              "-$21,149"
+            ]
+          ],
+          "fleetCostsChargersExpandRows":[
+            [
+              "",
+              "Cash / Down payments",
+              "$3,500"
+            ],
+            [
+              "",
+              "Principal",
+              "$0"
+            ],
+            [
+              "",
+              "Taxes & Fees",
+              "$303"
+            ],
+            [
+              "",
+              "Interest",
+              "$0"
+            ],
+            [
+              "",
+              "Charger Resale",
+              "-$689"
+            ],
+            [
+              "",
+              "Buyout",
+              "$0"
+            ],
+            [
+              "",
+              "Permitting",
+              "$500"
+            ],
+            [
+              "",
+              "Panel Upgrade",
+              "$6,750"
+            ],
+            [
+              "",
+              "Trenching",
+              "$5,000"
+            ],
+            [
+              "",
+              "Concrete Slab",
+              "$81"
+            ],
+            [
+              "",
+              "Installation",
+              "$30,000"
+            ]
+
+          ],
+          "fleetCostsChargerOperationsExpandRows": [
+            [
+              "",
+              "Maintenance",
+              "$40,000"
+            ],
+            [
+              "",
+              "Insurance",
+              "$120,000"
+            ],
+            [
+              "",
+              "Networking",
+              "$30,000"
+            ],
+            [
+              "",
+              "Warranty",
+              "$60,000"
+            ],
+            [
+              "",
+              "Revenue",
+              "-$311,531"
+            ]
+          ],
+          "fleetCostsLastRowTable":[
+            [
+              "Total",
+              "",
+              "$274,296"
+            ]
+          ]
+        },
+        "coverFuelCostPlus": {
+          "summary": {
+            "title": "Workplace Summary",
+            "lifetimeCostTitle": "in lifetime costs",
+            "lifetimeSavings": "-$53,470",
+            "upfrontCostsTitle": "in upfront costs",
+            "upfrontCost": "$3,803",
+            "monthlyCostsTitle": "in monthly costs",
+            "monthlyCost": "-$824",
+            "incentives": "in incentives",
+            "incentivesValue": "$21,149",
+            "in revenue": "in revenue",
+            "revenue": "$348,915"
+          },
+          "markupValue": "12",
+          "leftAlertMessage": "Overview_Charging_scenario costs $36,243 in the first year",
+          "rightAlertMessage": "Overview_Charging_scenario costs -$53,470 over 10 years",
+          "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+          "costsOverTimeMessage": "View your scenarios’ total expenses over time.",
+          "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+          "totalCostsTitle": "Total Costs",
+          "totalCostMessage": "A look at the costs for your scenario broken down by category.",
+          "totalCostsChart": "totalCostsChart.png",
+          "fleetCostsTitle": "Charging Costs Summary",
+          "fleetCostsTableHeaders": [
+            [
+              "",
+              "",
+              "Overview_Charging_scenario"
+            ]
+          ],
+          "fleetCostsCollapseRows": [
+            [
+              "Electricity",
+              "",
+              "$311,531"
+            ],
+            [
+              "Chargers",
+              "",
+              "$45,445"
+            ],
+            [
+              "Charger Operations",
+              "",
+              "-$98,915"
+            ],
+            [
+              "Incentives",
+              "",
+              "-$21,149"
+            ]
+          ],
+          "fleetCostsChargersExpandRows":[
+            [
+              "",
+              "Cash / Down payments",
+              "$3,500"
+            ],
+            [
+              "",
+              "Principal",
+              "$0"
+            ],
+            [
+              "",
+              "Taxes & Fees",
+              "$303"
+            ],
+            [
+              "",
+              "Interest",
+              "$0"
+            ],
+            [
+              "",
+              "Charger Resale",
+              "-$689"
+            ],
+            [
+              "",
+              "Buyout",
+              "$0"
+            ],
+            [
+              "",
+              "Permitting",
+              "$500"
+            ],
+            [
+              "",
+              "Panel Upgrade",
+              "$6,750"
+            ],
+            [
+              "",
+              "Trenching",
+              "$5,000"
+            ],
+            [
+              "",
+              "Concrete Slab",
+              "$81"
+            ],
+            [
+              "",
+              "Installation",
+              "$30,000"
+            ]
+
+          ],
+          "fleetCostsChargerOperationsExpandRows": [
+            [
+              "",
+              "Maintenance",
+              "$40,000"
+            ],
+            [
+              "",
+              "Insurance",
+              "$120,000"
+            ],
+            [
+              "",
+              "Networking",
+              "$30,000"
+            ],
+            [
+              "",
+              "Warranty",
+              "$60,000"
+            ],
+            [
+              "",
+              "Revenue",
+              "-$348,915"
+            ]
+          ],
+          "fleetCostsLastRowTable":[
+            [
+              "Total",
+              "",
+              "$236,912"
+            ]
+          ]
+        },
+        "chargingComparison": {
+          "leftAlertMessage": "No breakevenThe cumulative cost of Scenario B is not expected to potentially becomes cheaper than the cost of Scenario A.",
+          "rightAlertMessage": "Scenario A costs $161,034 less than Scenario B",
+          "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+          "costsOverTimeMessage": "Compare your scenarios’ expenses over time, including the break-even point where the lines intersect.",
+          "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+          "totalCostsTitle": "Total Costs",
+          "totalCostMessage": "A look at the costs for each scenario broken down by category.",
+          "totalCostsBarChart": "totalCostsBarChart.png",
+          "totalCostsWaterfallChart": "totalCostsWaterfallChart.png",
+          "fleetCostsTitle": "Charging Costs Summary",
+          "fleetCostsTableHeaders": [
+            [
+              "",
+              "",
+              "Scenario A",
+              "Scenario B",
+              "Difference"
+            ]
+          ],
+          "fleetCostsCollapseRows": [
+            [
+              "Electricity",
+              "",
+              "$319,619",
+              "$159,810",
+              "$159,810"
+            ],
+            [
+              "Chargers",
+              "",
+              "$49,151",
+              "$260,185",
+              "-$211,034"
+            ],
+            [
+              "Charger Operations",
+              "",
+              "$250,000",
+              "$200,000",
+              "$50,000"
+            ],
+            [
+              "Incentives",
+              "",
+              "-$9,774",
+              "-$52,749",
+              "$42,975"
+            ]
+          ],
+          "fleetCostsChargersExpandRows":[
+            [
+              "",
+              "Cash / Down payments",
+              "$3,500",
+              "$96,000",
+              "-$92,500"
+            ],
+            [
+              "",
+              "Principal",
+              "$0",
+              "$0",
+              "$0"
+            ],
+            [
+              "",
+              "Taxes & Fees",
+              "$259",
+              "$7,104",
+              "-$6,845"
+            ],
+            [
+              "",
+              "Interest",
+              "$0",
+              "$0",
+              "$0"
+            ],
+            [
+              "",
+              "Charger Resale",
+              "-$689",
+              "-$18,900",
+              "$18,211"
+            ],
+            [
+              "",
+              "Buyout",
+              "$0",
+              "$0",
+              "$0"
+            ],
+            [
+              "",
+              "Permitting",
+              "$500",
+              "$400",
+              "$100"
+            ],
+            [
+              "",
+              "Panel Upgrade",
+              "$6,750",
+              "$6,750",
+              "$0"
+            ],
+            [
+              "",
+              "Trenching",
+              "$8,750",
+              "$8,750",
+              "$0"
+            ],
+            [
+              "",
+              "Concrete Slab",
+              "$81",
+              "$81",
+              "$0"
+            ],
+            [
+              "",
+              "Installation",
+              "$30,000",
+              "$160,000",
+              "-$130,000"
+            ]
+          ],
+          "fleetCostsChargerOperationsExpandRows": [
+            [
+              "",
+              "Maintenance",
+              "$40,000",
+              "$32,000",
+              "$8,000"
+            ],
+            [
+              "",
+              "Insurance",
+              "$120,000",
+              "$96,000",
+              "$24,000"
+            ],
+            [
+              "",
+              "Networking",
+              "$30,000",
+              "$24,000",
+              "$6,000"
+            ],
+            [
+              "",
+              "Warranty",
+              "$60,000",
+              "$48,000",
+              "$12,000"
+            ],
+            [
+              "",
+              "Revenue",
+              "$0",
+              "$0",
+              "$0"
+            ]
+          ],
+          "fleetCostsLastRowTable":[
+            [
+              "Total",
+              "",
+              "$608,996",
+              "$567,246",
+              "$41,750"
+            ]
+          ]
+        },
+        "spotNumber": {
+          "leftAlertMessage": "Overview_Charging_scenario costs $33,359 in the first year",
+          "rightAlertMessage": "Overview_Charging_scenario costs $100,652 over 10 years",
+          "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+          "costsOverTimeMessage": "View your scenarios’ total expenses over time.",
+          "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+          "totalCostsTitle": "Total Costs",
+          "totalCostMessage": "A look at the costs for your scenario broken down by category.",
+          "totalCostsChart": "totalCostsChart.png",
+          "fleetCostsTitle": "Charging Costs Summary",
+          "fleetCostsTableHeaders": [
+            [
+              "",
+              "",
+              "Overview_Charging_scenario"
+            ]
+          ],
+          "fleetCostsCollapseRows": [
+            [
+              "Electricity",
+              "",
+              "$95,886"
+            ],
+            [
+              "Chargers",
+              "",
+              "$25,652"
+            ],
+            [
+              "Charger Operations",
+              "",
+              "$75,000"
+            ],
+            [
+              "Incentives",
+              "",
+              "-$9,774"
+            ]
+          ],
+          "fleetCostsChargersExpandRows":[
+            [
+              "",
+              "Cash / Down payments",
+              "$1,050"
+            ],
+            [
+              "",
+              "Principal",
+              "$0"
+            ],
+            [
+              "",
+              "Taxes & Fees",
+              "$78"
+            ],
+            [
+              "",
+              "Interest",
+              "$0"
+            ],
+            [
+              "",
+              "Charger Resale",
+              "-$207"
+            ],
+            [
+              "",
+              "Buyout",
+              "$0"
+            ],
+            [
+              "",
+              "Permitting",
+              "$150"
+            ],
+            [
+              "",
+              "Panel Upgrade",
+              "$6,750"
+            ],
+            [
+              "",
+              "Trenching",
+              "$8,750"
+            ],
+            [
+              "",
+              "Concrete Slab",
+              "$81"
+            ],
+            [
+              "",
+              "Installation",
+              "$9,000"
+            ]
+          ],
+          "fleetCostsChargerOperationsExpandRows": [
+            [
+              "",
+              "Maintenance",
+              "$12,000"
+            ],
+            [
+              "",
+              "Insurance",
+              "$36,000"
+            ],
+            [
+              "",
+              "Networking",
+              "$9,000"
+            ],
+            [
+              "",
+              "Warranty",
+              "$18,000"
+            ],
+            [
+              "",
+              "Revenue",
+              "$0"
+            ]
+          ],
+          "fleetCostsLastRowTable":[
+            [
+              "Total",
+              "",
+              "$186,764"
+            ]
+          ]
+        },
+        "vehicleNumber": {
+          "leftAlertMessage": "Overview_Charging_scenario costs $86,692 in the first year",
+          "rightAlertMessage": "Overview_Charging_scenario costs $355,865 over 10 years",
+          "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+          "costsOverTimeMessage": "View your scenarios’ total expenses over time.",
+          "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+          "totalCostsTitle": "Total Costs",
+          "totalCostMessage": "A look at the costs for your scenario broken down by category.",
+          "totalCostsChart": "totalCostsChart.png",
+          "fleetCostsTitle": "Charging Costs Summary",
+          "fleetCostsTableHeaders": [
+            [
+              "",
+              "",
+              "Overview_Charging_scenario"
+            ]
+          ],
+          "fleetCostsCollapseRows": [
+            [
+              "Electricity",
+              "",
+              "$159,810"
+            ],
+            [
+              "Chargers",
+              "",
+              "$55,865"
+            ],
+            [
+              "Charger Operations",
+              "",
+              "$300,000"
+            ],
+            [
+              "Incentives",
+              "",
+              "-$9,774"
+            ]
+          ],
+          "fleetCostsChargersExpandRows":[
+            [
+              "",
+              "Cash / Down payments",
+              "$4,200"
+            ],
+            [
+              "",
+              "Principal",
+              "$0"
+            ],
+            [
+              "",
+              "Taxes & Fees",
+              "$311"
+            ],
+            [
+              "",
+              "Interest",
+              "$0"
+            ],
+            [
+              "",
+              "Charger Resale",
+              "-$827"
+            ],
+            [
+              "",
+              "Buyout",
+              "$0"
+            ],
+            [
+              "",
+              "Permitting",
+              "$600"
+            ],
+            [
+              "",
+              "Panel Upgrade",
+              "$6,750"
+            ],
+            [
+              "",
+              "Trenching",
+              "$8,750"
+            ],
+            [
+              "",
+              "Concrete Slab",
+              "$81"
+            ],
+            [
+              "",
+              "Installation",
+              "$36,000"
+            ]
+          ],
+          "fleetCostsChargerOperationsExpandRows": [
+            [
+              "",
+              "Maintenance",
+              "$48,000"
+            ],
+            [
+              "",
+              "Insurance",
+              "$144,000"
+            ],
+            [
+              "",
+              "Networking",
+              "$36,000"
+            ],
+            [
+              "",
+              "Warranty",
+              "$72,000"
+            ],
+            [
+              "",
+              "Revenue",
+              "$0"
+            ]
+          ],
+          "fleetCostsLastRowTable":[
+            [
+              "Total",
+              "",
+              "$505,900"
+            ]
+          ]
+        }
+      },
+      "financing": {
+        "default": {
+          "messageAlert": "Finance method set to Cash by default. Update default inputs with your lender’s specifications to see more accurate estimates. Update the years of ownership for each vehicle set on the left Assumptions tab.",
+          "singleScenario" : {
+            "scenarioName": "Financing_Charging_scenario",
+            "financeType": "Cash",
+            "financingCostAssumptionsTitle": "Financing Cost Assumptions",
+            "financeCash": {
+              "financeType": "Cash",
+              "salesTax": "8.66",
+              "cashSimpleChart": "simpleCostChart.png",
+              "cashDetailedChart": "detailedCostChart.png",
+              "cashFlowChart": "cashFlowChart.png"
+            },
+            "financeLease": {
+              "financeType": "Lease",
+              "salesTax": "8.66",
+              "annualDepreciation": "15",
+              "financeTerm": "5 years (60 months)",
+              "downPayment": "20",
+              "interestRate": "7.31",
+              "residualValue": "20",
+              "simpleChart": "simpleCostLeaseChart.png",
+              "detailedChart": "detailedCostLeaseChart.png",
+              "cashFlowChart": "cashFlowLeaseChart.png"
+            },
+            "financeFinance": {
+              "financeType": "Finance",
+              "salesTax": "8.66",
+              "annualDepreciation": "15",
+              "financeTerm": "5 years (60 months)",
+              "downPayment": "20",
+              "interestRate": "7.31",
+              "residualValue": "20",
+              "simpleChart": "simpleCostFinanceChart.png",
+              "detailedChart": "detailedCostFinanceChart.png",
+              "cashFlowChart": "cashFlowFinanceChart.png"
+            }
+          },
+          "financingCostTitle": "Financing Costs",
+          "cashFlowTitle": "Cash Flow",
+          "resaleValueAssumptionTitle": "Resale Value Assumptions",
+          "resaleValueAssumption": "Resale Value \nResale values are modeled from interpolation of California Air Resources Board (CARB) resale values as published in their Advanced Clean Trucks TCO Calculator, May 8th 2019 (section ResTab, A130). While CARB provides specific percentages, here formulas are used that model these percentages as closely as possible and interpolate over vehicle age. Resale value takes into consideration age (years) but not mileage. You can adjust the resale value starting assumption to suit your needs or fit your lender’s own guidance.\nLight Duty Vehicle % Resale Value \nThe resale value of light duty on road vehicles (weight classes 1-2) is derived using this formula: resale value = ev purchase cost * 0.9429 * EXP(-0.084 * year)\nMedium Duty Vehicle % Resale Value\nThe resale value of medium duty on-road vehicles (weight classes 3 - 6) is derived using this formula: resale value = ev purchase cost * 0.8826 * EXP(-0.1 * year)\nHeavy Duty Vehicle %Resale Value\nThe resale value of heavy-duty on road vehicles (weight classes 7 - 8) is derived using this formula: resale value = ev purchase cost * -0.0003 * year3 + 0.0136 * year2 -0.2057 * year +1.2336"
+        },
+        "chargingComparison": {
+          "messageAlert": "Finance method set to Cash by default. Update default inputs with your lender’s specifications to see more accurate estimates. Update the years of ownership for each vehicle set on the left Assumptions tab.",
+          "evA" : {
+            "scenarioName": "Scenario A",
+            "financeType": "Cash",
+            "financingCostAssumptionsTitle": "Financing Cost Assumptions",
+            "financeCash": {
+              "financeType": "Cash",
+              "salesTax": "8.66",
+              "cashSimpleChart": "simpleCostIceChart.png",
+              "cashDetailedChart": "detailedCostIceChart.png",
+              "cashFlowChart": "cashFlowIceChart.png"
+            },
+            "financeLease": {
+              "financeType": "Lease",
+              "salesTax": "8.66",
+              "annualDepreciation": "15",
+              "financeTerm": "5 years (60 months)",
+              "downPayment": "20",
+              "interestRate": "7.31",
+              "residualValue": "20",
+              "simpleChart": "simpleCostLeaseIceChart.png",
+              "detailedChart": "detailedCostLeaseIceChart.png",
+              "cashFlowChart": "cashFlowLeaseIceChart.png"
+            },
+            "financeFinance": {
+              "financeType": "Finance",
+              "salesTax": "8.66",
+              "annualDepreciation": "15",
+              "financeTerm": "5 years (60 months)",
+              "downPayment": "20",
+              "interestRate": "7.31",
+              "residualValue": "20",
+              "simpleChart": "simpleCostFinanceIceChart.png",
+              "detailedChart": "detailedCostFinanceIceChart.png",
+              "cashFlowChart": "cashFlowFinanceIceChart.png"
+            }
+          },
+          "evB" : {
+            "scenarioName": "Scenario B",
+            "financeType": "Cash",
+            "financingCostAssumptionsTitle": "Financing Cost Assumptions",
+            "financeCash": {
+              "financeType": "Cash",
+              "salesTax": "8.66",
+              "cashSimpleChart": "simpleCostEvChart.png",
+              "cashDetailedChart": "detailedCostEvChart.png",
+              "cashFlowChart": "cashFlowEvChart.png"
+            },
+            "financeLease": {
+              "financeType": "Lease",
+              "salesTax": "8.66",
+              "annualDepreciation": "15",
+              "financeTerm": "5 years (60 months)",
+              "downPayment": "20",
+              "interestRate": "7.31",
+              "residualValue": "20",
+              "simpleChart": "simpleCostLeaseEvChart.png",
+              "detailedChart": "detailedCostLeaseEvChart.png",
+              "cashFlowChart": "cashFlowLeaseEvChart.png"
+            },
+            "financeFinance": {
+              "financeType": "Finance",
+              "salesTax": "8.66",
+              "annualDepreciation": "15",
+              "financeTerm": "5 years (60 months)",
+              "downPayment": "20",
+              "interestRate": "7.31",
+              "residualValue": "20",
+              "simpleChart": "simpleCostFinanceEvChart.png",
+              "detailedChart": "detailedCostFinanceEvChart.png",
+              "cashFlowChart": "cashFlowFinanceEvChart.png"
+            }
+          },
+          "financingCostTitle": "Financing Costs",
+          "cashFlowTitle": "Cash Flow",
+          "resaleValueAssumptionTitle": "Resale Value Assumptions",
+          "resaleValueAssumption": "Resale Value \nResale values are modeled from interpolation of California Air Resources Board (CARB) resale values as published in their Advanced Clean Trucks TCO Calculator, May 8th 2019 (section ResTab, A130). While CARB provides specific percentages, here formulas are used that model these percentages as closely as possible and interpolate over vehicle age. Resale value takes into consideration age (years) but not mileage. You can adjust the resale value starting assumption to suit your needs or fit your lender’s own guidance.\nLight Duty Vehicle % Resale Value \nThe resale value of light duty on road vehicles (weight classes 1-2) is derived using this formula: resale value = ev purchase cost * 0.9429 * EXP(-0.084 * year)\nMedium Duty Vehicle % Resale Value\nThe resale value of medium duty on-road vehicles (weight classes 3 - 6) is derived using this formula: resale value = ev purchase cost * 0.8826 * EXP(-0.1 * year)\nHeavy Duty Vehicle %Resale Value\nThe resale value of heavy-duty on road vehicles (weight classes 7 - 8) is derived using this formula: resale value = ev purchase cost * -0.0003 * year3 + 0.0136 * year2 -0.2057 * year +1.2336"
+        }
+      },
+      "incentives": {
+        "default": {
+          "headline": "Potentially Eligible Incentives",
+          "sub_headline": "This project may potentially be eligible for the following incentives, based on the location you entered. You can update this in the assumptions to the left.",
+          "sub_DACHeadline": "Increased incentive amounts provided for DACs (Disadvantaged Community) may vary by program and eligibility.",
+          "incentiveAlert": "No results found based on your inputs. If you think there is a mistake, you may update your inputs.",
+          "scenarioName": "Incentives_scenario",
+          "availableIncentivesTitle": "Available Incentives",
+          "estimatedIncentiveCost": "Estimated total incentives for zip code 39074: $9,774",
+          "incentives": [
+            {
+              "incName": "Federal",
+              "incStatus": "Eligible",
+              "estimated_amount": 9774,
+              "subtitles": [
+                {
+                  "nameVal": "Alternative Fuel Infrastructure Tax Credit",
+                  "content": "Beginning January 1, 2023, fueling equipment for natural gas, propane, hydrogen, electricity, E85, or diesel fuel blends containing a minimum of 20% biodiesel, is eligible for a tax credit of 30% of the cost or 6% in the case of property subject to depreciation, not to exceed $100,000. Permitting and inspection fees are not included in covered expenses."
+                },
+                {
+                  "nameVal": "Project Eligibility Analysis",
+                  "content": "This project is eligible for the incentive."
+                },
+                {
+                  "nameVal": "Assumptions",
+                  "content": "* Fueling station owners who install qualified equipment at multiple sites are allowed to use the credit towards each location.·\n    * Requires that projects pay the prevailing wage for labor and meet certain apprenticeship requirements.·\n    * Limits availability of tax credits to installations completed along approved \"census tracts,\" typically low-income or non-urban areas.·\n    * The act also allows for bi-directional charging equipment."
+                }
+              ],
+              "details": [
+                {
+                  "nameVal": "Closing date",
+                  "content": "--"
+                },
+                {
+                  "nameVal": "Max/Charger",
+                  "content": "--"
+                },
+                {
+                  "nameVal": "Organizations",
+                  "content": "Car rental fleets, Car sharing fleets, Federal government entities, Local government entities, Logistics companies, Medium or large businesses, Native tribes, Nonprofits, Private school districts, Public school districts, Small businesses, State government entities, Transit agencies, Universities, Utilities"
+                }
+              ],
+              "funding_breakdown": [
+                {
+                  "nameVal": "Total Available",
+                  "content": "N/A"
+                },
+                {
+                  "nameVal": "Funding to Date",
+                  "content": "--"
+                },
+                {
+                  "nameVal": "Applicability",
+                  "content": "Chargers"
+                }
+              ]
+            },
+            {
+              "incName": "Federal",
+              "incStatus": "Status /Ineligible",
+              "estimated_amount": 0,
+              "subtitles": [
+                {
+                  "nameVal": "Airport ZEV and Infrastructure Pilot Program",
+                  "content": "The Airport Zero Emissions Vehicle (ZEV) and Infrastructure Pilot Program improves airport air quality and facilitates use of zero emissions technologies at airports. Created in 2012, the program allows airport sponsors to use Airport Improvement Program (AIP) funds to purchase ZEVs and to construct or modify infrastructure needed to use ZEVs."
+                },
+                {
+                  "nameVal": "Project Eligibility Analysis",
+                  "content": "The project is ineligible for the grant as the organization type is not eligible."
+                },
+                {
+                  "nameVal": "Assumptions",
+                  "content": "A public-use airport is an airport open to the public that also meets the following criteria: Publicly owned, or Privately owned but designated by FAA as a reliever, or Privately owned but having scheduled service and at least 2,500 annual enplanements. To be eligible for a grant, an airport must be included in the NPIAS. The NPIAS, which is prepared and published every 2 years, identifies public-use airports that are important to public transportation and contribute to the needs of civil aviation, national defense, and the Postal service. For large and medium primary hub airports, the grant covers 75 percent of eligible costs (or 80 percent for noise program implementation). For small primary, reliever, and general aviation airports, the grant covers a range of 90-95 percent of eligible costs, based on statutory requirements. Please contact your local Airports Office for more details. 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. The costs to retrofit the vehicle for a specific airport purpose are not eligible. The airport sponsor must use these useful life assumptions to calculate project emission reduction. Sponsors must; Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA.* 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. * The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. * Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. * Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. * The costs to retrofit the vehicle for a specific airport purpose are not eligible. * The airport sponsor must use these useful life assumptions to calculate project emission reduction. * Sponsors must; * Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. * Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). * Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. * Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA."
+                }
+              ],
+              "details": [
+                {
+                  "nameVal": "Closing date",
+                  "content": "--"
+                },
+                {
+                  "nameVal": "Max/Charger",
+                  "content": "--"
+                },
+                {
+                  "nameVal": "Organizations",
+                  "content": "Federal government entities, Local government entities, Medium or large businesses, Small businesses, State government entities"
+                }
+              ],
+              "funding_breakdown": [
+                {
+                  "nameVal": "Total Available",
+                  "content": "N/A"
+                },
+                {
+                  "nameVal": "Funding to Date",
+                  "content": "--"
+                },
+                {
+                  "nameVal": "Applicability",
+                  "content": "Chargers, Vehicles"
+                }
+              ]
+            }
+          ]
+        },
+        "chargingComparison": {
+          "headline": "Potentially Eligible Incentives",
+          "sub_headline": "This project may potentially be eligible for the following incentives, based on the location you entered. You can update this in the assumptions to the left.",
+          "sub_DACHeadline": "Increased incentive amounts provided for DACs (Disadvantaged Community) may vary by program and eligibility.",
+          "incentiveAlert": "No results found based on your inputs. If you think there is a mistake, you may update your inputs.",
+          "scenarioNameA": "Scenario A",
+          "availableIncentivesTitleA": "Available Incentives",
+          "estimatedIncentiveCostA": "Estimated total incentives for zip code 39074: $9,774",
+          "evA": {
+            "incentives": [
+              {
+                "incName": "Federal",
+                "incStatus": "Eligible",
+                "estimated_amount": 9774,
+                "subtitles": [
+                  {
+                    "nameVal": "Alternative Fuel Infrastructure Tax Credit",
+                    "content": "Beginning January 1, 2023, fueling equipment for natural gas, propane, hydrogen, electricity, E85, or diesel fuel blends containing a minimum of 20% biodiesel, is eligible for a tax credit of 30% of the cost or 6% in the case of property subject to depreciation, not to exceed $100,000. Permitting and inspection fees are not included in covered expenses."
+                  },
+                  {
+                    "nameVal": "Project Eligibility Analysis",
+                    "content": "This project is eligible for the incentive."
+                  },
+                  {
+                    "nameVal": "Assumptions",
+                    "content": "* Fueling station owners who install qualified equipment at multiple sites are allowed to use the credit towards each location.·\n    * Requires that projects pay the prevailing wage for labor and meet certain apprenticeship requirements.·\n    * Limits availability of tax credits to installations completed along approved \"census tracts,\" typically low-income or non-urban areas.·\n    * The act also allows for bi-directional charging equipment."
+                  }
+                ],
+                "details": [
+                  {
+                    "nameVal": "Closing date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Max/Charger",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Organizations",
+                    "content": "Car rental fleets, Car sharing fleets, Federal government entities, Local government entities, Logistics companies, Medium or large businesses, Native tribes, Nonprofits, Private school districts, Public school districts, Small businesses, State government entities, Transit agencies, Universities, Utilities"
+                  }
+                ],
+                "funding_breakdown": [
+                  {
+                    "nameVal": "Total Available",
+                    "content": "N/A"
+                  },
+                  {
+                    "nameVal": "Funding to Date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Applicability",
+                    "content": "Chargers"
+                  }
+                ]
+              },
+              {
+                "incName": "Federal",
+                "incStatus": "Status /Ineligible",
+                "estimated_amount": 0,
+                "subtitles": [
+                  {
+                    "nameVal": "Airport ZEV and Infrastructure Pilot Program",
+                    "content": "The Airport Zero Emissions Vehicle (ZEV) and Infrastructure Pilot Program improves airport air quality and facilitates use of zero emissions technologies at airports. Created in 2012, the program allows airport sponsors to use Airport Improvement Program (AIP) funds to purchase ZEVs and to construct or modify infrastructure needed to use ZEVs."
+                  },
+                  {
+                    "nameVal": "Project Eligibility Analysis",
+                    "content": "The project is ineligible for the grant as the organization type is not eligible."
+                  },
+                  {
+                    "nameVal": "Assumptions",
+                    "content": "A public-use airport is an airport open to the public that also meets the following criteria: Publicly owned, or Privately owned but designated by FAA as a reliever, or Privately owned but having scheduled service and at least 2,500 annual enplanements. To be eligible for a grant, an airport must be included in the NPIAS. The NPIAS, which is prepared and published every 2 years, identifies public-use airports that are important to public transportation and contribute to the needs of civil aviation, national defense, and the Postal service. For large and medium primary hub airports, the grant covers 75 percent of eligible costs (or 80 percent for noise program implementation). For small primary, reliever, and general aviation airports, the grant covers a range of 90-95 percent of eligible costs, based on statutory requirements. Please contact your local Airports Office for more details. 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. The costs to retrofit the vehicle for a specific airport purpose are not eligible. The airport sponsor must use these useful life assumptions to calculate project emission reduction. Sponsors must; Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA.* 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. * The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. * Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. * Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. * The costs to retrofit the vehicle for a specific airport purpose are not eligible. * The airport sponsor must use these useful life assumptions to calculate project emission reduction. * Sponsors must; * Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. * Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). * Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. * Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA."
+                  }
+                ],
+                "details": [
+                  {
+                    "nameVal": "Closing date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Max/Charger",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Organizations",
+                    "content": "Federal government entities, Local government entities, Medium or large businesses, Small businesses, State government entities"
+                  }
+                ],
+                "funding_breakdown": [
+                  {
+                    "nameVal": "Total Available",
+                    "content": "N/A"
+                  },
+                  {
+                    "nameVal": "Funding to Date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Applicability",
+                    "content": "Chargers, Vehicles"
+                  }
+                ]
+              }
+            ]
+          },
+          "scenarioNameB": "Scenario B",
+          "availableIncentivesTitleB": "Available Incentives",
+          "estimatedIncentiveCostB": "Estimated total incentives for zip code 39074: $100,000",
+          "evB" : {
+            "incentives": [
+              {
+                "incName": "Federal",
+                "incStatus": "Eligible",
+                "estimated_amount": 100000,
+                "subtitles": [
+                  {
+                    "nameVal": "Alternative Fuel Infrastructure Tax Credit",
+                    "content": "Beginning January 1, 2023, fueling equipment for natural gas, propane, hydrogen, electricity, E85, or diesel fuel blends containing a minimum of 20% biodiesel, is eligible for a tax credit of 30% of the cost or 6% in the case of property subject to depreciation, not to exceed $100,000. Permitting and inspection fees are not included in covered expenses."
+                  },
+                  {
+                    "nameVal": "Project Eligibility Analysis",
+                    "content": "This project is eligible for the incentive."
+                  },
+                  {
+                    "nameVal": "Assumptions",
+                    "content": "* Fueling station owners who install qualified equipment at multiple sites are allowed to use the credit towards each location.·\n    * Requires that projects pay the prevailing wage for labor and meet certain apprenticeship requirements.·\n    * Limits availability of tax credits to installations completed along approved \"census tracts,\" typically low-income or non-urban areas.·\n    * The act also allows for bi-directional charging equipment."
+                  }
+                ],
+                "details": [
+                  {
+                    "nameVal": "Closing date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Max/Charger",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Organizations",
+                    "content": "Car rental fleets, Car sharing fleets, Federal government entities, Local government entities, Logistics companies, Medium or large businesses, Native tribes, Nonprofits, Private school districts, Public school districts, Small businesses, State government entities, Transit agencies, Universities, Utilities"
+                  }
+                ],
+                "funding_breakdown": [
+                  {
+                    "nameVal": "Total Available",
+                    "content": "N/A"
+                  },
+                  {
+                    "nameVal": "Funding to Date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Applicability",
+                    "content": "Chargers"
+                  }
+                ]
+              },
+              {
+                "incName": "Federal",
+                "incStatus": "Status /Ineligible",
+                "estimated_amount": 0,
+                "subtitles": [
+                  {
+                    "nameVal": "Airport ZEV and Infrastructure Pilot Program",
+                    "content": "The Airport Zero Emissions Vehicle (ZEV) and Infrastructure Pilot Program improves airport air quality and facilitates use of zero emissions technologies at airports. Created in 2012, the program allows airport sponsors to use Airport Improvement Program (AIP) funds to purchase ZEVs and to construct or modify infrastructure needed to use ZEVs."
+                  },
+                  {
+                    "nameVal": "Project Eligibility Analysis",
+                    "content": "The project is ineligible for the grant as the organization type is not eligible."
+                  },
+                  {
+                    "nameVal": "Assumptions",
+                    "content": "A public-use airport is an airport open to the public that also meets the following criteria: Publicly owned, or Privately owned but designated by FAA as a reliever, or Privately owned but having scheduled service and at least 2,500 annual enplanements. To be eligible for a grant, an airport must be included in the NPIAS. The NPIAS, which is prepared and published every 2 years, identifies public-use airports that are important to public transportation and contribute to the needs of civil aviation, national defense, and the Postal service. For large and medium primary hub airports, the grant covers 75 percent of eligible costs (or 80 percent for noise program implementation). For small primary, reliever, and general aviation airports, the grant covers a range of 90-95 percent of eligible costs, based on statutory requirements. Please contact your local Airports Office for more details. 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. The costs to retrofit the vehicle for a specific airport purpose are not eligible. The airport sponsor must use these useful life assumptions to calculate project emission reduction. Sponsors must; Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA.* 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. * The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. * Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. * Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. * The costs to retrofit the vehicle for a specific airport purpose are not eligible. * The airport sponsor must use these useful life assumptions to calculate project emission reduction. * Sponsors must; * Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. * Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). * Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. * Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA."
+                  }
+                ],
+                "details": [
+                  {
+                    "nameVal": "Closing date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Max/Charger",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Organizations",
+                    "content": "Federal government entities, Local government entities, Medium or large businesses, Small businesses, State government entities"
+                  }
+                ],
+                "funding_breakdown": [
+                  {
+                    "nameVal": "Total Available",
+                    "content": "N/A"
+                  },
+                  {
+                    "nameVal": "Funding to Date",
+                    "content": "--"
+                  },
+                  {
+                    "nameVal": "Applicability",
+                    "content": "Chargers, Vehicles"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "operations": {
+        "default": {
+          "operationsTitle": "Operations",
+          "estimatedAnnualOperationCostsTitle": "Estimated Annual Operations Costs",
+          "estimatedAnnualOperationCostsChart": "estimatedAnnualOperationsCostsChart.png",
+          "estimatedLifetimeOperationCostsTitle": "Estimated Lifetime Operations Costs",
+          "estimatedLifetimeOperationCostsChart": "estimatedLifetimeOperationsCostsChart.png",
+          "operationCostsHeaderTable": [
+            [
+              "Cost",
+              "Operations_scenario"
+            ]
+          ],
+          "operationCostsOneYearRowsTable": [
+            [
+              "Charger Insurance",
+              "$18,000"
+            ],
+            [
+              "Charger Maintenance",
+              "$6,000"
+            ],
+            [
+              "Charger Warranty",
+              "$9,000"
+            ],
+            [
+              "Charger Networking",
+              "$4,500"
+            ],
+            [
+              "Charger Revenue",
+              "$0"
+            ]
+          ],
+          "operationCostsOneYearLastRowTable": [
+            [
+              "Total",
+              "$37,500"
+            ]
+          ],
+          "operationCostsLifetimeRowsTable": [
+            [
+              "Charger Insurance",
+              "$180,000"
+            ],
+            [
+              "Charger Maintenance",
+              "$60,000"
+            ],
+            [
+              "Charger Warranty",
+              "$90,000"
+            ],
+            [
+              "Charger Networking",
+              "$45,000"
+            ],
+            [
+              "Charger Revenue",
+              "$0"
+            ]
+            ],
+          "operationCostsLifetimeLastRowTable": [
+              [
+                "Total",
+                "$375,000"
+              ]
+          ]
+        },
+        "chargingComparison": {
+          "operationsTitle": "Operations",
+          "estimatedAnnualOperationCostsTitle": "Estimated Annual Operations Costs",
+          "estimatedAnnualOperationCostsChart": "estimatedAnnualOperationsCostsIceChart.png",
+          "estimatedLifetimeOperationCostsTitle": "Estimated Lifetime Operations Costs",
+          "estimatedLifetimeOperationCostsChart": "estimatedLifetimeOperationsCostsIceChart.png",
+          "operationCostsHeaderTable": [
+            [
+              "Cost",
+              "Scenario A",
+              "Scenario B",
+              "Difference"
+            ]
+          ],
+          "operationCostsOneYearRowsTable": [
+            [
+              "Charger Insurance",
+              "$12,000",
+              "$4,800",
+              "-$7,200"
+
+            ],
+            [
+              "Charger Maintenance",
+              "$4,000",
+              "$1,600",
+              "-$2,400"
+            ],
+            [
+              "Charger Warranty",
+              "$6,000",
+              "$2,400",
+              "-$3,600"
+            ],
+            [
+              "Charger Networking",
+              "$3,000",
+              "$1,200",
+              "-$1,800"
+            ],
+            [
+              "Charger Revenue",
+              "$0",
+              "$0",
+              "$0"
+            ]
+          ],
+          "operationCostsOneYearLastRowTable": [
+            [
+              "Total",
+              "$25,000",
+              "$10,000",
+              "-$15,000"
+            ]
+          ],
+          "operationCostsLifetimeRowsTable": [
+            [
+              "Charger Insurance",
+              "$120,000",
+              "$48,000",
+              "-$72,000"
+            ],
+            [
+              "Charger Maintenance",
+              "$40,000",
+              "$16,000",
+              "-$24,000"
+            ],
+            [
+              "Charger Warranty",
+              "$60,000",
+              "$24,000",
+              "-$36,000"
+            ],
+            [
+              "Charger Networking",
+              "$30,000",
+              "$12,000",
+              "-$18,000"
+            ],
+            [
+              "Charger Revenue",
+              "$0",
+              "$0",
+              "$0"
+            ]
+          ],
+          "operationCostsLifetimeLastRowTable": [
+            [
+              "Total",
+              "$250,000",
+              "$100,000",
+              "$150,000"
+            ]
+          ]
+        }
+      },
+      "electricity": {
+        "default": {
+          "title": "Electricity",
+          "electricityAlertMessage": "Your fleet will draw an estimated peak of 109.29 kW and use an estimated 33,405 kWh of electricity per month.",
+          "fleetElectricityCostTitle": "Electricity Costs",
+          "fleetElectricityCostMessage": "Total annual electricity costs are calculated from your load profile and electric rate, explained below. The electric pricing provided is an estimate based on the information provided in the tool. Actual rates may vary due to factors such as changes in actual usage, market conditions, regulatory adjustments, charging duration and charging days/times. Please note this estimate does not include fuel or taxes.",
+          "fleetElectricityCostAlert": "Electricity_scenario selected rate: TIME OF USE - GENERAL SERVICE DEMAND SCHEDULE, provided by Georgia Power.",
+          "estimatedAnnualAvgCost": "Estimated annual average cost",
+          "estimatedAnnualAvgCostChart": "estimatedAnnualAvgCostCargoVanChart.png",
+          "rateComponentCosts": "Rate Component Costs",
+          "rateComponentCostsTable": [
+             [
+              "Electricity_scenario Rate Component",
+              "Annual Billable Units",
+              "Cost"
+            ],
+            [
+              "Fixed Charges",
+              "12 Months",
+              "$2,256"
+            ],
+            [
+              "Energy Charges",
+              "50,000 kWh",
+              "$131,742"
+            ],
+            [
+              "Other Charges",
+              "40,000 kW",
+              "$1"
+            ],
+            [
+              "Demand Charges",
+              "40,000 kW",
+              "$491"
+            ]
+          ],
+          "chargingEquipmentLoad": "Charging Equipment Loads",
+          "siteProfileTitle": "Site Load Profile (kWh)",
+          "siteProfileChart": "siteLoadProfileCargoVan.png",
+          "batteryScheduleTitle": "Weekly Battery Schedule",
+          "batteryScheduleChart": "weeklyBatteryScheduleCargoVan.png"
+        },
+        "modifyChargingDays": {
+          "title": "Electricity",
+          "electricityAlertMessage": "Your fleet will draw an estimated peak of 7.29 kW and use an estimated 2,218.5 kWh of electricity per month.",
+          "fleetElectricityCostTitle": "Electricity Costs",
+          "fleetElectricityCostMessage": "Total annual electricity costs are calculated from your load profile and electric rate, explained below. The electric pricing provided is an estimate based on the information provided in the tool. Actual rates may vary due to factors such as changes in actual usage, market conditions, regulatory adjustments, charging duration and charging days/times. Please note this estimate does not include fuel or taxes.",
+          "fleetElectricityCostAlert": "Scenario A selected rate: Low Voltage Single Phase Rate, provided by Mississippi Power Co.",
+          "estimatedAnnualAvgCost": "Estimated annual average cost",
+          "estimatedAnnualAvgCostChart": "estimatedAnnualAvgCostCargoVanChart.png",
+          "rateComponentCosts": "Rate Component Costs",
+          "rateComponentCostsTable": [
+            [
+              "Scenario A Rate Component",
+              "Annual Billable Units",
+              "Cost"
+            ],
+            [
+              "Fixed Charges",
+              "24 Month",
+              "$1,022"
+            ],
+            [
+              "Energy Charges",
+              "213,101.28 kWh",
+              "$14,572"
+            ],
+            [
+              "Other Charges",
+              "0 kW",
+              "$0"
+            ],
+            [
+              "Demand Charges",
+              "174.96 kW",
+              "$437"
+            ]
+          ],
+          "chargingEquipmentLoad": "Charging Equipment Loads",
+          "siteProfileTitle": "Site Load Profile (kWh)",
+          "siteProfileChart": "siteLoadProfileCargoVan.png"
+        },
+        "chargingComparison" : {
+          "title": "Electricity",
+          "electricityAlertMessageA": "Scenario A will draw an estimated peak of 72.86 kW and use an estimated 22,270 kWh of electricity per month.",
+          "electricityAlertMessageB": "Scenario B will draw an estimated peak of 36.43 kW and use an estimated 11,135 kWh of electricity per month.",
+          "fleetElectricityCostTitle": "Electricity Costs",
+          "fleetElectricityCostMessage": "Total annual electricity costs are calculated from your load profile and electric rate, explained below. The electric pricing provided is an estimate based on the information provided in the tool. Actual rates may vary due to factors such as changes in actual usage, market conditions, regulatory adjustments, charging duration and charging days/times. Please note this estimate does not include fuel or taxes.",
+          "fleetElectricityCostAlert": "Scenario A selected rate: TIME OF USE - GENERAL SERVICE DEMAND SCHEDULE, provided by Georgia Power. Scenario B selected rate: TIME OF USE - GENERAL SERVICE DEMAND SCHEDULE, provided by Georgia Power.",
+          "estimatedAnnualAvgCost": "Estimated annual average cost",
+          "estimatedAnnualAvgCostChartA": "estimatedAnnualAvgCostChartA.png",
+          "estimatedAnnualAvgCostChartB": "estimatedAnnualAvgCostChartB.png",
+          "rateComponentCosts": "Rate Component Costs",
+          "rateComponentCostsTableA": [
+            [
+              "Scenario A Rate Component",
+              "Annual Billable Units",
+              "Cost"
+            ],
+            [
+              "Fixed Charges",
+              "12 Months",
+              "$2,256"
+            ],
+            [
+              "Energy Charges",
+              "50,000 kWh",
+              "$87,828"
+            ],
+            [
+              "Other Charges",
+              "40,000 kW",
+              "$1"
+            ],
+            [
+              "Demand Charges",
+              "40,000 kW",
+              "$327"
+            ]
+          ],
+          "rateComponentCostsTableB": [
+            [
+              "Scenario B Rate Component",
+              "Annual Billable Units",
+              "Cost"
+            ],
+            [
+              "Fixed Charges",
+              "12 Months",
+              "$2,256"
+            ],
+            [
+              "Energy Charges",
+              "50,000 kWh",
+              "$43,914"
+            ],
+            [
+              "Other Charges",
+              "40,000 kW",
+              "$1"
+            ],
+            [
+              "Demand Charges",
+              "40,000 kW",
+              "$164"
+            ]
+          ],
+          "chargingEquipmentLoad": "Charging Equipment Loads",
+          "siteProfileTitle": "Site Load Profile (kWh)",
+          "siteProfileChart": "siteLoadProfile.png",
+          "batteryScheduleTitle": "Weekly Battery Schedule",
+          "batteryScheduleChart": "weeklyBatterySchedule.png"
+        }
+      },
+      "charging": {
+        "default": {
+          "chargingTitle": "Chargers",
+          "topMessage": "Select an equipment set below to compare costs and specifications between scenarios.",
+          "alertMessage": "Some charger installation projects may be subject to ADA requirements, which may require site modifications.  Learn more about ADA EV charger requirements and applicability",
+          "scenarioName": "Charging_scenario",
+          "chargerCostTitle": "Charger Costs",
+          "chargerTable": {
+            "numberOfRows": [
+              "Number of chargers:",
+              "Charger purchase costs:",
+              "Charger installation costs:",
+              "Total charger costs:"
+            ],
+            "valueCosts": [
+              "15",
+              "$5,639",
+              "$61,331",
+              "$66,970"
+            ]
+          },
+          "chargerName": [
+            "Generic Level 2 - 7.2 kW",
+            "Level 2 - 7.2 kW"
+          ],
+          "chargerSpecs": {
+            "numberOfRows": [
+              "Plug Type(s)",
+              "Ports",
+              "Form Factor",
+              "Amps",
+              "Certifications",
+              "Estimated Cost",
+              "REPLACE"
+            ],
+            "valueSpecs": [
+              "J1772",
+              "1",
+              "Wall mounted",
+              "30 amps",
+              "UL, cUL",
+              "$350",
+              ""
+            ]
+          },
+          "chargerDepreciationTitle": "Charger Depreciation",
+          "depreciationMessage": "Compare the cumulative depreciation of each of your scenario’s chargers over time.",
+          "depreciationChart": "chargerDepreciationChart.png",
+          "depreciationTable": {
+            "numberOfRows": [
+              "",
+              "Lifetime Depreciation Amount",
+              "Average Annual Depreciation",
+              "Lifetime Depreciation Percent",
+              "Average Annual Depreciation Percent"
+            ],
+            "depreciationValues": [
+              "Charging_scenario",
+              "$4,216",
+              "$422",
+              "80.31%",
+              "8.03%"
+            ]
+          }
+        },
+        "chargingComparison" : {
+          "chargingTitle": "Chargers",
+          "topMessage": "Select an equipment set below to compare costs and specifications between scenarios.",
+          "alertMessage": "Some charger installation projects may be subject to ADA requirements, which may require site modifications.  Learn more about ADA EV charger requirements and applicability",
+          "evA": {
+            "scenarioName": "Scenario A",
+            "chargerCostTitle": "Charger Costs",
+            "chargerTable": {
+              "numberOfRows": [
+                "Number of chargers:",
+                "Charger purchase costs:",
+                "Charger installation costs:",
+                "Total charger costs:"
+              ],
+              "valueCosts": [
+                "10",
+                "$3,759",
+                "$46,081",
+                "$49,840"
+              ]
+            },
+            "chargerName": [
+              "Generic Level 2 - 7.2 kW",
+              "Level 2 - 7.2 kW"
+            ],
+            "chargerSpecs": {
+              "numberOfRows": [
+                "Plug Type(s)",
+                "Ports",
+                "Form Factor",
+                "Amps",
+                "Certifications",
+                "Estimated Cost",
+                "REPLACE"
+              ],
+              "valueSpecs": [
+                "J1772",
+                "1",
+                "Wall mounted",
+                "30 amps",
+                "UL, cUL",
+                "$350",
+                ""
+              ]
+            }
+          },
+          "evB": {
+            "scenarioName": "Scenario B",
+            "chargerCostTitle": "Charger Costs",
+            "chargerTable": {
+              "numberOfRows": [
+                "Number of chargers:",
+                "Charger purchase costs:",
+                "Charger installation costs:",
+                "Total charger costs:"
+              ],
+              "valueCosts": [
+                "8",
+                "$186,446",
+                "$175,981",
+                "$362,427"
+              ]
+            },
+            "chargerName": [
+              "Generic DCFC - 40.0 kW",
+              "DCFC - 40 kW"
+            ],
+            "chargerSpecs": {
+              "numberOfRows": [
+                "Plug Type(s)",
+                "Ports",
+                "Form Factor",
+                "Amps",
+                "Certifications",
+                "Estimated Cost",
+                "REPLACE"
+              ],
+              "valueSpecs": [
+                "CCS1,CCS2",
+                "1",
+                "Pedestal",
+                "83 amps",
+                "UL, cUL",
+                "$21,700",
+                ""
+              ]
+            }
+          },
+          "chargerDepreciationTitle": "Charger Depreciation",
+          "depreciationMessage": "Compare the cumulative depreciation of each of your scenario’s chargers over time.",
+          "depreciationChart": "chargerDepreciationChart.png",
+          "depreciationTable": {
+            "numberOfRows": [
+              "",
+              "Lifetime Depreciation Amount",
+              "Average Annual Depreciation",
+              "Lifetime Depreciation Percent",
+              "Average Annual Depreciation Percent"
+            ],
+            "evAScenario": [
+              "Scenario A",
+              "$2,811",
+              "$281",
+              "80.31%",
+              "8.03%"
+            ],
+            "evBScenario": [
+              "Scenario B",
+              "$139,423",
+              "$13,942",
+              "80.31%",
+              "8.03%"
+            ],
+            "difference": [
+              "Difference",
+              "$136,612",
+              "$13,661",
+              "0%",
+              "0%"
+            ]
+          }
+        }
+      },
+      "emissions": {
+        "default": {
+          "title": "Emissions",
+          "scenarioName": "Emissions_scenario",
+          "co2SavedPerYear": "Emissions_scenario utilizes 69.65 tons of CO2 per year",
+          "lifetimeCO2Saved": "Emissions_scenario utilizes 696.55 tons of CO2 over the project lifetime",
+          "plantsTreesMoreYear": "Emissions_scenario plants the equivalent of 0 trees per year",
+          "lifetimePlantsTreesMoreOverVehicle": "Emissions_scenario plants the equivalent of 2 trees over the project lifetime",
+          "emissionsTable": {
+            "titleRows": [
+              "Item",
+              "Fuel/Electricity Consumed",
+              "Annual CO2 Emissions",
+              "Lifetime CO2 Emissions"
+            ],
+            "scenarioName": [
+              "Emissions_scenario",
+              "397.8 MWh",
+              "139,309.56 lbs CO2",
+              "1,393,095.6 lbs CO2"
+            ]
+          }
+        },
+        "chargingComparison": {
+          "title": "Emissions",
+          "scenarioNameA": "Scenario A",
+          "co2SavedPerYearA": "Scenario A utilizes 46.44 tons of CO2 per year",
+          "lifetimeCO2SavedA": "Scenario A utilizes 464.37 tons of CO2 over the project lifetime",
+          "scenarioNameB": "Scenario B",
+          "co2SavedPerYearB": "Scenario B utilizes 23.22 tons of CO2 per year",
+          "lifetimeCO2SavedB": "Scenario B utilizes 232.18 tons of CO2 over the project lifetime",
+          "emissionsTable": {
+            "titleRows": [
+              "Item",
+              "Fuel/Electricity Consumed",
+              "Annual CO2 Emissions",
+              "Lifetime CO2 Emissions"
+            ],
+            "scenarioName": [
+              "Scenario A",
+              "265.2 MWh",
+              "92,873.04 lbs CO2",
+              "928,730.4 lbs CO2"
+            ],
+            "evScenarioName": [
+              "Scenario B",
+              "132.6 MWh",
+              "46,436.52 lbs CO2",
+              "464,365.2 lbs CO2"
+            ]
+          }
+        }
+      },
+      "editAssumptions": {
+        "evScenario": {
+          "title": "Edit Assumptions",
+          "assumptions": "Assumptions",
+          "siteLocations": "Site Locations",
+          "fuelCosts": "Fuel Costs",
+          "vehicleCharging": "Vehicle Charging",
+          "projectLifetime": "10 ",
+          "organizationType": "Larg",
+          "publicEntity": "No",
+          "taxExempt": "No",
+          "zipcode": "6601",
+          "electricityEmissions": "5",
+          "fossilFuelEmissions": "17.86",
+          "electricRate": "",
+          "dieselPrice": "3",
+          "gasolinePrice": "3.12",
+          "avgMileage": "20",
+          "avgEfficiency": "20",
+          "avgArrivingVehicleStateOfCharge": "60%",
+          "avgLeavingVehicleStateOfCharge": "80%",
+          "avgBatteryCapacity": "85kWh",
+          "projectedkWhCharge": "23kWh"
+        },
+        "ffScenario": {
+          "title": "Edit Assumptions",
+          "assumptions": "Assumptions",
+          "siteLocations": "Site Locations",
+          "fuelCosts": "Fuel Costs",
+          "vehicleCharging": "Vehicle Charging",
+          "ice": {
+            "projectLifetime": "10 years",
+            "organizationType": "Medium or Large Businesses",
+            "publicEntity": "No",
+            "taxExempt": "No",
+            "zipcode": "6601",
+            "electricityEmissions": "5",
+            "fossilFuelEmissions": "17.86",
+            "electricRate": "",
+            "dieselPrice": "3",
+            "gasolinePrice": "0.15",
+            "avgMileage": "20",
+            "avgEfficiency": "20",
+            "avgArrivingVehicleStateOfCharge": "60%",
+            "avgLeavingVehicleStateOfCharge": "80%",
+            "avgBatteryCapacity": "85kWh",
+            "projectedkWhCharge": "23kWh"
+          },
+          "ev": {
+            "projectLifetime": "10 years",
+            "organizationType": "Medium or Large Businesses",
+            "publicEntity": "No",
+            "taxExempt": "No",
+            "zipcode": "6601",
+            "electricityEmissions": "5",
+            "fossilFuelEmissions": "17.86",
+            "electricRate": "",
+            "dieselPrice": "3",
+            "gasolinePrice": "0.15",
+            "avgMileage": "20",
+            "avgEfficiency": "20",
+            "avgArrivingVehicleStateOfCharge": "60%",
+            "avgLeavingVehicleStateOfCharge": "80%",
+            "avgBatteryCapacity": "85kWh",
+            "projectedkWhCharge": "23kWh"
+          }
+        }
+      },
+      "modifyAssumptions": {
+        "evScenario": {
+          "projectLifetime": "5 years",
+          "organizationType": "Native Tribe",
+          "publicEntity": "Yes",
+          "taxExempt": "Yes"
+        },
+        "ffScenario": {
+          "ice": {
+            "projectLifetime": "6 years",
+            "organizationType": "Private School District",
+            "publicEntity": "Yes",
+            "taxExempt": "Yes"
+          },
+          "ev": {
+            "projectLifetime": "6 years",
+            "organizationType": "Private School District",
+            "publicEntity": "Yes",
+            "taxExempt": "Yes"
+          }
+        }
+      },
+      "modifySiteLocation": {
+        "evScenario": {
+          "zipcode": "90210",
+          "electricityEmissions": "10",
+          "fossilFuelEmissions": "21.86"
+        },
+        "ffScenario": {
+          "ice": {
+            "zipcode": "94038",
+            "electricityEmissions": "10",
+            "fossilFuelEmissions": "23.45"
+          },
+          "ev": {
+            "zipcode": "90001",
+            "electricityEmissions": "7",
+            "fossilFuelEmissions": "12.78"
+          }
+        }
+      },
+      "modifyFuelCosts": {
+        "evScenario": {
+          "electricRate": "",
+          "dieselPrice": "5",
+          "gasolinePrice": "0.45"
+        },
+        "ffScenario": {
+          "ice": {
+            "electricRate": "Business Rate",
+            "dieselPrice": "6",
+            "gasolinePrice": "2.315"
+          },
+          "ev": {
+            "electricRate": "Business Rate",
+            "dieselPrice": "4",
+            "gasolinePrice": "3.15"
+          }
+        }
+      },
+      "modifyVehicleCharging": {
+        "evScenario": {
+          "avgMileage": "25",
+          "avgEfficiency": "25",
+          "avgArrivingVehicleStateOfCharge": "55",
+          "avgLeavingVehicleStateOfCharge": "75",
+          "avgBatteryCapacity": "88",
+          "projectedkWhCharge": "23kWh"
+        },
+        "ffScenario": {
+          "ice": {
+            "avgMileage": "19",
+            "avgEfficiency": "22",
+            "avgArrivingVehicleStateOfCharge": "62%",
+            "avgLeavingVehicleStateOfCharge": "79%",
+            "avgBatteryCapacity": "80kWh",
+            "projectedkWhCharge": "23kWh"
+          },
+          "ev": {
+            "avgMileage": "22",
+            "avgEfficiency": "25",
+            "avgArrivingVehicleStateOfCharge": "58%",
+            "avgLeavingVehicleStateOfCharge": "78%",
+            "avgBatteryCapacity": "89kWh",
+            "projectedkWhCharge": "23kWh"
+          }
+        }
+      },
+      "editEquipments": {
+        "evScenario": {
+          "fleetSummary": {
+            "title": "Fleet Summary",
+            "lifetimeSavings": "$336,050",
+            "vehicleCount": "1",
+            "annualFuelSavings": "$31,661",
+            "perMile": "$0.38",
+            "incentives": "$NaN",
+            "totalGHGEmissionsSaved": "NaN tons"
+          },
+          "equipSetEvTab": {
+            "title": "Equipment Sets",
+            "vehicleSetName": "Equipment Set #1",
+            "numberOfVehicles": "5",
+            "evRange": "516 mi",
+            "evBatteryCapacity": "112 kWh",
+            "evEfficiency": "8.76 MPGe",
+            "evWeightClass": "2",
+            "evEstimatedPrice": "$109,900",
+            "vehicleName": "Lucid Air Grand Touring",
+            "range": "516",
+            "gvwr": "6283",
+            "efficiency": "8.762",
+            "estimatedPrice": "$109,900",
+            "chargerTitle": "Chargers",
+            "numberOfChargers": "5",
+            "estimatedCost": "$350",
+            "chargerType": "Level 2",
+            "chargerOutput": "7.2 kW",
+            "chargerModel": "Generic Level 2 - 7.2 kW"
+          },
+          "chargerUsageEvTab": {
+            "title": "Charger Usage",
+            "avgDistanceDrivenPerVehicleForBusinessUse": "140",
+            "avgDistanceDrivenPerVehicleForPersonalUse": "20",
+            "alertMessage": "If vehicle usage exceeds 140 miles per day then your vehicles will need to be charged more than once per day (e.g. in the middle of the day). Alternatively, you may want to reduce the number of vehicles of t\nhis type on the previous screen so only vehicles used for under 140 hours per day are switched to EVs."
+          },
+          "chargingBehaviorEvTab": {
+            "title": "Charging Behavior",
+            "startTime": "06:00 PM",
+            "endTime": "06:00 AM",
+            "chargerAccess": "Private [Fleet Owned]",
+            "alertMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours."
+          },
+          "siteRequirementsTab" : {
+            "title": "Site Requirements",
+            "distanceToPanel": "50",
+            "needNewPanel": "Yes",
+            "ftOfConcreteSlab": "9"
+          },
+          "costDetailsEvTab": {
+            "yourTitle": "Cost Details",
+            "installationCost": "",
+            "permittingCost": "",
+            "doYouNeedPanel": "",
+            "panelCosts": "",
+            "distanceToPanel": "",
+            "trenchingCost": "",
+            "concreteCost": "",
+            "concreteSlab": "",
+            "networkCost": "",
+            "warrantyCost": "",
+            "insuranceCost": "",
+            "maintenanceCost": "",
+            "utilityTitle": "Utility Side of the Meter",
+            "gridUpgradeCost": ""
+          }
+        },
+        "ffScenario": {
+          "fleetSummary": {
+            "title": "Fleet Summary",
+            "lifetimeSavings": "$336,050",
+            "vehicleCount": "1",
+            "annualFuelSavings": "$31,661",
+            "perMile": "$0.38",
+            "incentives": "$NaN",
+            "totalGHGEmissionsSaved": "NaN tons"
+          },
+          "equipSetEvTab": {
+            "title": "Equipment Sets",
+            "vehicleSetName": "Equipment Set #1",
+            "numberOfVehicles": "5",
+            "evRange": "163 mi",
+            "evBatteryCapacity": "153 kWh",
+            "evEfficiency": "33.08 MPGe",
+            "evWeightClass": "5",
+            "evEstimatedPrice": "$222,000",
+            "vehicleName": "Generic medium duty box truck",
+            "range": "163",
+            "gvwr": "19500",
+            "efficiency": "33.076550000000005",
+            "estimatedPrice": "$222,000",
+            "chargerTitle": "Chargers",
+            "numberOfChargers": "5",
+            "estimatedCost": "$600",
+            "chargerType": "Level 2",
+            "chargerOutput": "11.52 kW",
+            "chargerModel": "Generic Level 2 - 11.52 kW"
+          },
+          "chargerUsageEvTab": {
+            "title": "Charger Usage",
+            "avgDistanceDrivenPerVehicleForBusinessUse": "140",
+            "avgDistanceDrivenPerVehicleForPersonalUse": "20",
+            "alertMessage": "If vehicle usage exceeds 140 miles per day then your vehicles will need to be charged more than once per day (e.g. in the middle of the day). Alternatively, you may want to reduce the number of vehicles of t\nhis type on the previous screen so only vehicles used for under 140 hours per day are switched to EVs."
+          },
+          "chargingBehaviorEvTab": {
+            "title": "Charging Behavior",
+            "startTime": "06:00 PM",
+            "endTime": "06:00 AM",
+            "chargerAccess": "Private [Fleet Owned]",
+            "alertMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours."
+          },
+          "siteRequirementsTab" : {
+            "title": "Site Requirements",
+            "distanceToPanel": "50",
+            "needNewPanel": "Yes",
+            "ftOfConcreteSlab": "9"
+          },
+          "costDetailsEvTab": {
+            "yourTitle": "Cost Details",
+            "installationCost": "",
+            "permittingCost": "",
+            "doYouNeedPanel": "",
+            "panelCosts": "",
+            "distanceToPanel": "",
+            "trenchingCost": "",
+            "concreteCost": "",
+            "concreteSlab": "",
+            "networkCost": "",
+            "warrantyCost": "",
+            "insuranceCost": "",
+            "maintenanceCost": "",
+            "utilityTitle": "Utility Side of the Meter",
+            "gridUpgradeCost": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "outputs_EvBus": {
+      "overview": {
+        "leftAlertMessage": "Scenario A costs $1,000 in the first year",
+        "rightAlertMessage": "Scenario A costs $10,000 over 10 years",
+        "cumulativeCostsOverTimeTitle": "Cumulative Costs Over Time",
+        "costsOverTimeMessage": "View your scenarios’ total expenses over time.",
+        "cumulativeCostsOverTimeChart": "cumulativeCostsOverTimeChart.png",
+        "totalCostsTitle": "Total Costs",
+        "totalCostMessage": "A look at the costs for your scenario broken down by category.",
+        "totalCostsChart": "totalCostsChart.png",
+        "fleetCostsTitle": "Charging Costs Summary",
+        "fleetCostsMainTable": [
+          [
+            "",
+            "",
+            "Scenario A"
+          ]
+        ],
+        "fleetCostsRowsTable": [
+          [
+            "Vehicles",
+            "Purchase",
+            "$68,320"
+          ],
+          [
+            "",
+            "Sales Tax",
+            "$68,320"
+          ],
+          [
+            "",
+            "Resale",
+            "$68,320"
+          ],
+          [
+            "",
+            "Registration Fees",
+            "$68,320"
+          ],
+          [
+            "",
+            "Down Payments",
+            "$68,320"
+          ],
+          [
+            "Vehicle Operations",
+            "Maintenance",
+            "$68,320"
+          ],
+          [
+            "",
+            "Insurance",
+            "$68,320"
+          ],
+          [
+            "",
+            "LCFS",
+            "$68,320"
+          ],
+          [
+            "Incentives",
+            "",
+            "$68,320"
+          ],
+          [
+            "Total",
+            "",
+            "$68,320"
+          ]
+        ]
+      },
+      "financing": {
+        "messageAlert": "Finance method set to Cash by default. Update default inputs with your lender’s specifications to see more accurate estimates. Update the years of ownership for each vehicle set on the left Assumptions tab.",
+        "singleScenario" : {
+          "scenarioName": "OutputAllForOnRoadEV",
+          "financeType": "Cash",
+          "financingCostAssumptionsTitle": "Financing Cost Assumptions",
+          "financeCash": {
+            "financeType": "Cash",
+            "salesTax": "8.66",
+            "cashSimpleChart": "simpleCostChart.png",
+            "cashDetailedChart": "detailedCostChart.png",
+            "cashFlowChart": "cashFlowChart.png"
+          },
+          "financeLease": {
+            "financeType": "Lease",
+            "salesTax": "8.66",
+            "annualDepreciation": "15",
+            "financeTerm": "5 years (60 months)",
+            "downPayment": "20",
+            "interestRate": "7.31",
+            "residualValue": "20",
+            "simpleChart": "simpleCostLeaseChart.png",
+            "detailedChart": "detailedCostLeaseChart.png",
+            "cashFlowChart": "cashFlowLeaseChart.png"
+          },
+          "financeFinance": {
+            "financeType": "Finance",
+            "salesTax": "8.66",
+            "annualDepreciation": "15",
+            "financeTerm": "5 years (60 months)",
+            "downPayment": "20",
+            "interestRate": "7.31",
+            "residualValue": "20",
+            "simpleChart": "simpleCostFinanceChart.png",
+            "detailedChart": "detailedCostFinanceChart.png",
+            "cashFlowChart": "cashFlowFinanceChart.png"
+          }
+        },
+        "financingCostTitle": "Financing Costs",
+        "cashFlowTitle": "Cash Flow",
+        "resaleValueAssumptionTitle": "Resale Value Assumptions",
+        "resaleValueAssumption": "Resale Value \nResale values are modeled from interpolation of California Air Resources Board (CARB) resale values as published in their Advanced Clean Trucks TCO Calculator, May 8th 2019 (section ResTab, A130). While CARB provides specific percentages, here formulas are used that model these percentages as closely as possible and interpolate over vehicle age. Resale value takes into consideration age (years) but not mileage. You can adjust the resale value starting assumption to suit your needs or fit your lender’s own guidance.\nLight Duty Vehicle % Resale Value \nThe resale value of light duty on road vehicles (weight classes 1-2) is derived using this formula: resale value = ev purchase cost * 0.9429 * EXP(-0.084 * year)\nMedium Duty Vehicle % Resale Value\nThe resale value of medium duty on-road vehicles (weight classes 3 - 6) is derived using this formula: resale value = ev purchase cost * 0.8826 * EXP(-0.1 * year)\nHeavy Duty Vehicle %Resale Value\nThe resale value of heavy-duty on road vehicles (weight classes 7 - 8) is derived using this formula: resale value = ev purchase cost * -0.0003 * year3 + 0.0136 * year2 -0.2057 * year +1.2336"
+      },
+      "incentives": {
+        "headline": "Potentially Eligible Incentives",
+        "sub_headline": "This project may potentially be eligible for the following incentives, based on the location you entered. You can update this in the assumptions to the left.",
+        "sub_DACHeadline": "Increased incentive amounts provided for DACs (Disadvantaged Community) may vary by program and eligibility.",
+        "incentiveAlert": "No results found based on your inputs. If you think there is a mistake, you may update your inputs.",
+        "scenarioName": "OutputAllForOnRoadEV",
+        "availableIncentivesTitle": "Available Incentives",
+        "estimatedIncentiveCost": "Estimated total incentives for zip code 66015: $7,659",
+        "incentives": [
+          {
+            "incName": "Federal",
+            "incStatus": "Eligible",
+            "estimated_amount": 7659,
+            "subtitles": [
+              {
+                "nameVal": "Alternative Fuel Infrastructure Tax Credit",
+                "content": "Beginning January 1, 2023, fueling equipment for natural gas, propane, hydrogen, electricity, E85, or diesel fuel blends containing a minimum of 20% biodiesel, is eligible for a tax credit of 30% of the cost or 6% in the case of property subject to depreciation, not to exceed $100,000. Permitting and inspection fees are not included in covered expenses."
+              },
+              {
+                "nameVal": "Project Eligibility Analysis",
+                "content": "This project is eligible for the incentive."
+              },
+              {
+                "nameVal": "Assumptions",
+                "content": "* Fueling station owners who install qualified equipment at multiple sites are allowed to use the credit towards each location.·\n    * Requires that projects pay the prevailing wage for labor and meet certain apprenticeship requirements.·\n    * Limits availability of tax credits to installations completed along approved \"census tracts,\" typically low-income or non-urban areas.·\n    * The act also allows for bi-directional charging equipment."
+              }
+            ],
+            "details": [
+              {
+                "nameVal": "Closing date",
+                "content": "January 1, 2038"
+              },
+              {
+                "nameVal": "Max/Charger",
+                "content": "--"
+              },
+              {
+                "nameVal": "Organizations",
+                "content": "Car rental fleets, Car sharing fleets, Federal government entities, Local government entities, Logistics companies, Medium or large businesses, Native tribes, Nonprofits, Private school districts, Public school districts, Small businesses, State government entities, Transit agencies, Universities, Utilities"
+              }
+            ],
+            "funding_breakdown": [
+              {
+                "nameVal": "Total Available",
+                "content": "N/A"
+              },
+              {
+                "nameVal": "Funding to Date",
+                "content": "--"
+              },
+              {
+                "nameVal": "Applicability",
+                "content": "Chargers"
+              }
+            ]
+          },
+          {
+            "incName": "Federal",
+            "incStatus": "Ineligible ",
+            "estimated_amount": 0,
+            "subtitles": [
+              {
+                "nameVal": "Airport ZEV and Infrastructure Pilot Program",
+                "content": "The Airport Zero Emissions Vehicle (ZEV) and Infrastructure Pilot Program improves airport air quality and facilitates use of zero emissions technologies at airports. Created in 2012, the program allows airport sponsors to use Airport Improvement Program (AIP) funds to purchase ZEVs and to construct or modify infrastructure needed to use ZEVs."
+              },
+              {
+                "nameVal": "Project Eligibility Analysis",
+                "content": "The project is ineligible for the grant as the organization type is not eligible."
+              },
+              {
+                "nameVal": "Assumptions",
+                "content": "A public-use airport is an airport open to the public that also meets the following criteria: Publicly owned, or Privately owned but designated by FAA as a reliever, or Privately owned but having scheduled service and at least 2,500 annual enplanements. To be eligible for a grant, an airport must be included in the NPIAS. The NPIAS, which is prepared and published every 2 years, identifies public-use airports that are important to public transportation and contribute to the needs of civil aviation, national defense, and the Postal service. For large and medium primary hub airports, the grant covers 75 percent of eligible costs (or 80 percent for noise program implementation). For small primary, reliever, and general aviation airports, the grant covers a range of 90-95 percent of eligible costs, based on statutory requirements. Please contact your local Airports Office for more details. 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. The costs to retrofit the vehicle for a specific airport purpose are not eligible. The airport sponsor must use these useful life assumptions to calculate project emission reduction. Sponsors must; Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA.* 90 percent of the funded refueling or recharging station capacity is dedicated for on-airport vehicle use. Therefore, only 10 percent of the funded refueling or recharging station capacity can be dedicated to public use. * The sponsor must limit the capacity of refueling and recharging stations to the number of project vehicles and their fueling requirements. * Sponsors must operate vehicles acquired under the ZEV Pilot Program at the same level of use estimated in the airport sponsor's application. * Partial ZEVs or vehicles utilizing \"hybrid\" technologies are not considered a ZEV and are not eligible under the ZEV Pilot Program. * The costs to retrofit the vehicle for a specific airport purpose are not eligible. * The airport sponsor must use these useful life assumptions to calculate project emission reduction. * Sponsors must; * Own or lease all new or retrofitted vehicles and equipment purchased through the ZEV Pilot Program. * Not use ZEV Pilot Program funding for tenant-owned vehicles or equipment (e.g., airline vehicles). * Not lease ZEV vehicles and equipment purchased under the ZEV Pilot Program to airport tenants. * Not sell or transfer title to program vehicles during the useful life of the vehicle without prior notification and written approval by the FAA."
+              }
+            ],
+            "details": [
+              {
+                "nameVal": "Closing date",
+                "content": "January 1, 2038"
+              },
+              {
+                "nameVal": "Max/Charger",
+                "content": "--"
+              },
+              {
+                "nameVal": "Organizations",
+                "content": "Federal government entities, Local government entities, Medium or large businesses, Small businesses, State government entities"
+              }
+            ],
+            "funding_breakdown": [
+              {
+                "nameVal": "Total Available",
+                "content": "N/A"
+              },
+              {
+                "nameVal": "Funding to Date",
+                "content": "--"
+              },
+              {
+                "nameVal": "Applicability",
+                "content": "Chargers, Vehicles"
+              }
+            ]
+          },
+          {
+            "incName": "Evergy Kansas Central",
+            "incStatus": "Ineligible",
+            "estimated_amount": 0,
+            "subtitles": [
+              {
+                "nameVal": "Public EV Charging",
+                "content": "Evergy rebates reduce the upfront cost of installing publicly accessible Level 2 and DCFC charging stations at your place of business for fleet and public charging."
+              },
+              {
+                "nameVal": "Project Eligibility Analysis",
+                "content": "This postcode is not in an Evergy approved territory."
+              },
+              {
+                "nameVal": "Assumptions",
+                "content": "Organizations applying for the program must be non-residential. * Funds available for Rebates are limited. * This Rebate is valid for Customers in the Evergy Kansas Central and Evergy Kansas Metro territories on a first come, first-served basis. * To be eligible to participate in the Rebate, Customers must be a non-residential customer of Evergy being served under any commercial rate schedule that is not in collections or subject to an active payment agreement. * Customers must have the right to install, own, operate, and maintain EVSE on the site, which must be within the previously identified Evergy territories. * Customer must agree to install, own, and operate new, qualified EVSE at Highway Corridor, Public, Workplace, Fleet or Multifamily sites and maintain the respective EVSE in good working order at the site at Customer's expense for at least five years after installation. * The application must be submitted by the Customer through the Evergy website. * Rebates must be claimed within six months of the date of EVSE installation. * Sites wi"
+              }
+            ],
+            "details": [
+              {
+                "nameVal": "Closing date",
+                "content": "March 14, 2027"
+              },
+              {
+                "nameVal": "Max/Charger",
+                "content": "--"
+              },
+              {
+                "nameVal": "Organizations",
+                "content": "Car rental fleets, Car sharing fleets, Federal government entities, Local government entities, Logistics companies, Medium or large businesses, Native tribes, Nonprofits, Private school districts, Public school districts, Small businesses, State government entities, Transit agencies, Universities, Utilities"
+              }
+            ],
+            "funding_breakdown": [
+              {
+                "nameVal": "Total Available",
+                "content": "N/A"
+              },
+              {
+                "nameVal": "Funding to Date",
+                "content": "--"
+              },
+              {
+                "nameVal": "Applicability",
+                "content": "Chargers"
+              }
+            ]
+          }
+        ]
+      },
+      "lcfs": {
+        "headline": "Low Carbon Fuel Standard",
+        "preAlertMessage": "Based on your zip code (",
+        "postAlertMessage": ") LCFS is not available in your area."
+      },
+      "operations": {
+        "operationsTitle": "Operations",
+        "estimatedAnnualOperationCostsTitle": "Estimated Annual Operations costs",
+        "estimatedAnnualOperationCostsChart": "estimatedAnnualOperationsCostsChart.png",
+        "estimatedLifetimeOperationCostsTitle": "Estimated Lifetime Operations costs",
+        "estimatedLifetimeOperationCostsChart": "estimatedLifetimeOperationsCostsChart.png",
+        "operationCostsHeaderTable": [
+          [
+            "Cost",
+            "OutputAllForOnRoadEV"
+          ]
+        ],
+        "operationCostsRowsTable": [
+          [
+            "Vehicle Insurance",
+            "$0"
+          ],
+          [
+            "Vehicle Maintenance",
+            "$0"
+          ],
+          [
+            "Charger Insurance",
+            "$0"
+          ],
+          [
+            "Charger Maintenance",
+            "$0"
+          ],
+          [
+            "Charger Warranty",
+            "$0"
+          ],
+          [
+            "Charger Networking",
+            "$0"
+          ],
+          [
+            "Total",
+            "$0"
+          ]
+        ],
+        "insuranceCostAssumptions": "Insurance CostsInsurance cost amounts are estimates. These estimates are based on AFLEET 2020 data.Liability insurance is derived from a function of vehicle type and state of operation.For cars, pickups, cargo\nvans, step vans, utility trucks, specialty vehicles and cutaway chassis 50/100/50 liability insurance is assumed.For school buses, transit buses shuttle buses, and motor coaches $2M Combined Single Limit (CSL) insurance is assumed.F\nor box trucks, BEV drive systems, and refuse trucks $500,000 CSL insurance is assumed.For trailer trucks $1M CSL is assumed.Comprehensive and Collision insurance - is derived from the vehicle type, state of operation and Estimated P\nrice. This assumes $500k comprehensive / collision coverage.Off Road Vehicle Insurance - insurance is not calculated for off road vehicles. (Please check on premium amounts with your carrier).",
+        "annualMaintenanceCostAssumptions": "Annual per-mile maintenance costs are modeled as increasing linearly over time, derived from both the years of operation and annual mileage driven. Per-mile maintenance costs for specific years can be viewed by hovering over the graph above.METHODOLOGY:ICE Vehicle Methodology ExampleCost $/mi-yr = Annual Miles / 16500 * C * year # * 0.0232 (slope) + 0.0158 (intercept) * (1.05)^(year # - 1)Electric Vehicle Methodology ExampleCost $/mi-yr = Annual Miles / 16500 * C * year # * 0.0157 (slope) + 0.0107 (intercept) * (1.05)^(year # - 1)The slope and intercept vary for other vehicle types, duties, and fuel types. C is 1.5, 0.75, 0.6, or 0.25 if vehicle drives ~10k, ~15k, ~\n20k, or ~25k or more miles per year, respectively."
+      },
+      "electricity": {
+        "title": "Electricity",
+        "electricityAlertMessage": "Your fleet will draw an estimated peak of 96 kW and use an estimated 22,844.79 kWh of electricity per month.",
+        "fleetElectricityCostTitle": "Fleet Electricity Costs",
+        "fleetElectricityCostMessage": "Total annual electricity costs are calculated from your load profile and electric rate, explained below. The electric pricing provided is an estimate based on the information provided in the tool. Actual rates may vary due to factors such as changes in actual usage, market conditions, regulatory adjustments, charging duration and charging days/times. Please note this estimate does not include fuel or taxes.",
+        "fleetElectricityCostAlert": "OutputAllForOnRoadEV selected rate: Business EV Rate, provided by Evergy Kansas Central.",
+        "estimatedAnnualAvgCost": "Estimated annual average cost",
+        "estimatedAnnualAvgCostChart": "estimatedAnnualAvgCostChart.png",
+        "rateComponentCosts": "Rate Component Costs",
+        "rateComponentCostsTable": [
+          [
+            "OutputAllForOnRoadEV Rate Component",
+            "Annual Billable Units",
+            "Cost"
+          ],
+          [
+            "Fixed Charges",
+            "12 Months",
+            "$898"
+          ],
+          [
+            "Energy Charges",
+            "50,000 kWh",
+            "$3,539"
+          ],
+          [
+            "Other Charges",
+            "40,000 kW",
+            "$0"
+          ],
+          [
+            "Demand Charges",
+            "40,000 kW",
+            "$654"
+          ],
+          [
+            "Total",
+            "0",
+            "$5,090"
+          ]
+        ],
+        "chargingEquipmentLoad": "Charging Equipment Loads",
+        "siteProfileTitle": "Site Load Profile (kWh)",
+        "siteProfileChart": "siteLoadProfile.png",
+        "batteryScheduleTitle": "Weekly Battery Schedule",
+        "batteryScheduleChart": "weeklyBatterySchedule.png"
+      },
+      "fuelCosts": {
+      },
+      "charging": {
+        "chargingTitle": "Chargers",
+        "topMessage": "Select an equipment set below to compare costs and specifications between scenarios.",
+        "alertMessage": "Some charger installation projects may be subject to ADA requirements, which may require site modifications. Learn more about ADA EV charger requirements and applicability",
+        "scenarioName": "OutputAllForOnRoadEV",
+        "chargerCostTitle": "Charger Costs",
+        "chargerTable": {
+          "numberOfRows": [
+            "Number of chargers:",
+            "Charger purchase costs:",
+            "Charger installation costs:",
+            "Total charger costs:"
+          ],
+          "valueCosts": [
+            "5",
+            "$1,902",
+            "$27,270",
+            "$29,172"
+          ]
+        },
+        "chargerSpecs": [
+          [
+            "Level 2 - 7.2 kW7.2 kWSingle PortConnectivity"
+          ],
+          [
+            "Plug Type(s)",
+            "J1772"
+          ],
+          [
+            "Port kW",
+            "7.2 kW"
+          ],
+          [
+            "Form Factor",
+            "Wall mounted"
+          ],
+          [
+            "Amps",
+            "30 amps"
+          ],
+          [
+            "Certifications",
+            "UL, cUL"
+          ],
+          [
+            "Estimated Cost",
+            "$350"
+          ],
+          [
+            "REPLACE"
+          ]
+        ],
+        "chargerDepreciationTitle": "Charger Depreciation",
+        "depreciationMessage": "Compare the cumulative depreciation of each of your scenario’s chargers over time.",
+        "depreciationChart": "chargerDepreciationChart.png",
+        "depreciationTable": {
+          "numberOfRows": [
+            "",
+            "Lifetime Depreciation Amount",
+            "Average Annual Depreciation",
+            "Lifetime Depreciation Percent",
+            "Average Annual Depreciation Percent"
+          ],
+          "depreciationValues": [
+            "Charging_EV_Scenario",
+            "$1,405",
+            "$141",
+            "80.31%",
+            "12.45%"
+          ]
+        }
+      },
+      "vehicles": {
+        "vehicleTitle": "Vehicle Comparison",
+        "vehicleMessage": "Select an equipment set below to compare costs, incentives and specifications between scenarios.",
+        "leftEquipmentSet": {
+          "equipmentSetName": "Equipment Set #1",
+          "evCostsTable": {
+            "titleRows": [
+              "Annual Electricity Cost",
+              "Electric Efficiency",
+              "Electricity Cost Per Mile",
+              "Total Miles Per Year"
+            ],
+            "values": [
+              "$5,093",
+              "0.19 MPGe",
+              "$0.11",
+              "9,600 mi"
+            ]
+          },
+          "evSpecsTable": {
+            "titleRows": [
+              "Cargo Capacity",
+              "Seating",
+              "Headroom",
+              "Legroom"
+            ],
+            "values": [
+              "-",
+              "2",
+              "-",
+              "-"
+            ]
+          }
+        },
+        "vehicleDepTitle": "Vehicle Depreciation",
+        "vehicleDepMessage": "Compare the cumulative depreciation of each of your scenario’s vehicles over time.",
+        "vehicleDepreciationChart": "vehicleDepreciationChart.png",
+        "depreciationTable": {
+          "titleRows": [
+            "",
+            "Lifetime Depreciation Amount",
+            "Average Annual Depreciation",
+            "Lifetime Depreciation Percent",
+            "Average Annual Depreciation Percent"
+          ],
+          "scenarioName": [
+            "OutputAllForOnRoadEV",
+            "$38,905",
+            "$17,527",
+            "0.26%",
+            "0.28%"
+          ]
+        }
+      },
+      "emissions": {
+        "co2SavedPerYearScenarioEv": "EV Scenario Apotentially saves 0 tons more of CO2 per year",
+        "lifetimeCO2SavedScenarioEv": "EV Scenario Aplants the equivalent of 0 trees more over vehicle lifetime",
+        "emissionsTable": {
+          "titleRows": [
+            "Item",
+            "Fossil Fuel Volume",
+            "Fossil Fuel CO2 Emissions",
+            "CO2 Emissions by Fossil Fuel",
+            "Electricity Consumed",
+            "Electricity CO2 Emissions",
+            "CO2 Emissions from EV charging",
+            "Total CO2 Emissions"
+          ],
+          "scenarioName": [
+            "Scenario A",
+            "4,144 gal",
+            "22.45 lbs CO2 / gal",
+            "22.45 lbs",
+            "46 MWh",
+            "206 lbs/MWh",
+            "0 lbs CO2",
+            "22.45 lbs CO2"
+          ],
+          "evScenarioName": [
+            "EV Scenario A",
+            "0 gal",
+            "0 lbs CO2 / gal",
+            "0 lbs",
+            "0 MWh",
+            "0 lbs/MWh",
+            "0 lbs CO2",
+            "0 lbs CO2"
+          ],
+          "notes": [
+            "Notes",
+            "For each vehicle set, we applied each vehicle's mpg to the annual miles driven.",
+            "Source: U.S. Energy Information Administration",
+            "\"Fossil Fuel Volume\" * \"CO2 Emissions In Lbs/Gal\"",
+            "The amount of electricity required to replace the selected fleet of fossil fuel vehicles one-to-one with electric vehicles.",
+            "Source: US Energy Information Administration",
+            "\"Electricity Equivalent\" * \"California Electricity CO2 Emissions\"",
+            "\"Diesel CO2 Emissions\" + \"Gasoline CO2 Emissions\" + \"LPG CO2 emissions\""
+          ]
+        },
+        "emissionAssumptionTitle": "Emissions Assumptions",
+        "dieselValue": "22.45",
+        "gasValue": "17.86",
+        "electricityValue": "10146.853"
+      }
+    }
+  }
+]

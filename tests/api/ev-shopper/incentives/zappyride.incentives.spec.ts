@@ -1,0 +1,21 @@
+import { test, expect } from "@playwright/test";
+import { getBearerToken } from "../../../../utils/tokenManager";
+
+test("GET /incentives with postcode 94044", async ({ request }) => {
+    const token = await getBearerToken();
+    const response = await request.get("https://api.d.zappyride.com/incentives", {
+        params: {
+            postcode: "94044",
+        },
+        headers: {
+            Authorization: `Bearer ${token}`,
+            "User-Agent": "PostmanRuntime/7.51.1",
+            Accept: "*/*",
+        },
+    });
+
+    expect(response.status()).toBe(200);
+    const body = await response.json();
+    console.log(JSON.stringify(body, null, 2));
+    expect(body).toBeTruthy();
+});

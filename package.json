@@ -1,0 +1,19 @@
+{
+  "name": "zappyride-api-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:beta": "node -r dotenv/config ./node_modules/.bin/playwright test dotenv_config_path=.env.beta",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20.11.0",
+    "dotenv": "^16.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}

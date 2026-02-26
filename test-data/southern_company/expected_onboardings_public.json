@@ -1,0 +1,416 @@
+[
+  {
+    "onboarding": {
+      "endUserIn": {
+        "userName": "minh.vu@jdpa.com",
+        "password": "Password!123",
+        "roleName": "Client User"
+      },
+      "landing": {
+        "url": "https://dev-fleetspremium.saas.d.zappyride.com/",
+        "header": "There are Many Ways to Electrify",
+        "headerDescription": "Please register or sign in, then you will be prompted to tell us more about your specific requirements so we can recommend the appropriate equipment for your needs, identify incentives, and estimate cost savings. We can help with:",
+        "logo": "https://assets.zappyride.com/resource/southernCompany/resources.logo-5123c712-22cc-4f4d-8244-dd6404cf32dc.png",
+        "FleetTitle": "Fleets",
+        "WorkplaceChargingTitle": "Workplace Charging",
+        "PublicChargingTitle": "Public Charging",
+        "MUDChargingTitle": "MUD Charging",
+        "fleetIcon": "https://assets.zappyride.com/img/icons/aps/aps-organization.svg",
+        "workplaceIcon": "https://assets.zappyride.com/img/icons/aps/aps-tellus.svg",
+        "publicIcon": "https://assets.zappyride.com/img/icons/aps/aps-save.svg",
+        "MUDIcon": "https://assets.zappyride.com/img/icons/aps/aps-save.svg",
+        "fleetMessage": "Compare the total costs of fleets of electrifying your fleet. ",
+        "workplaceMessage": "Discover how much it costs to install chargers at your workplace. ",
+        "publicMessage": "Compare the costs and revenue of providing public chargers. ",
+        "MUDMessage": "Find out how much it costs to install chargers at multi-unit dwellings (MUD). ",
+        "alertMessage": "Looking to replace your existing Fossil Fuel Fleet? See how much you can save by electrifying your fossil fuel fleet, available as a guest user"
+      },
+      "projectList": {},
+      "projectType": {
+        "title": "How Do You Want to Electrify?",
+        "subMessage": "Choose a scenario and click Next to continue."
+      },
+      "generalInformation": {
+        "default": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "DefaultGeneralInfo",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "modifyDefaultValues": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "ModifyGeneralInfo",
+          "scenarioName": "Modify Scenario",
+          "organizationType": "Car Sharing Company",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": "5 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "94038",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dac": "false",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "modifyProjectLifetime": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "ModifyProjectLifetime",
+          "scenarioName": "Scenario",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": ["1 year","6 years","20 years"],
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "90210",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dac": "false",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "updateOrganizationType": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "SelectionPrioritizedDistricts",
+          "scenarioName": "Prioritized Districts",
+          "organizationType": ["Local Government Entities","Native Tribes","Private School Districts","Public School Districts"],
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "90210",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "enableJustice40": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "enableJustice40",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "90210",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "enableDAC": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "enableDAC",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "90210",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "updateMilitaryOrganizationType": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "SelectionMilitary",
+          "scenarioName": "Prioritized Military",
+          "organizationType": ["Medium or Large Business","Small Business","State Government Agency","Federal Government Entity"],
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "military": "false",
+          "militaryMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "66015",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        }
+      },
+      "chargingNeeds": {
+        "default": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let's figure out how many chargers you will need. If you know exactly how many you will need, or you want to overwrite our recommendation, select the charger option. If you aren't sure, we can help you estimate using the spots you have available or the vehicles that need charging at your workplace.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "A",
+          "chargers": {
+            "label": "I know how many charging ports I need",
+            "todayNumber": "6",
+            "chargersInNYears": "10"
+          },
+          "vehicles": {
+            "label": "I know how many vehicles need charging",
+            "employeeVehicles": "10",
+            "portsToday": "5",
+            "portsInNYears": "8"
+          },
+          "parking": {
+            "label": "I know how many spots I have available",
+            "parkingSpots": "10",
+            "utilizingPercentage": "10",
+            "portsToday": "1",
+            "portsInNYears": "2"
+          },
+          "resultMessage": "This results in a total of 20 vehicles being charged.",
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        },
+        "defaultGrowth": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let’s determine how many chargers you’ll need. Choose \"I know how many charging ports I need\" if you know your exact requirement or wish to override our recommendations. If you're unsure, you can estimate your needs based on available parking spots or how many vehicles require charging.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "A",
+          "chargers": {
+            "label": "I know how many charging ports I need",
+            "todayNumber": "6",
+            "chargersInNYears": "15"
+          },
+          "vehicles": {
+            "label": "I know how many vehicles need charging",
+            "employeeVehicles": "10",
+            "portsToday": "5",
+            "portsInNYears": "12"
+          },
+          "parking": {
+            "label": "I know how many spots I have available",
+            "parkingSpots": "10",
+            "utilizingPercentage": "10",
+            "portsToday": "1",
+            "portsInNYears": "3"
+          },
+          "yearGrowthMessage": "Plan for 10 year growth",
+          "yearGrowth": "true",
+          "growthFactor": "10",
+          "resultMessage": "This results in a total of 30 vehicles being charged.",
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        },
+        "modifyPortNumber": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let's figure out how many chargers you will need. If you know exactly how many you will need, or you want to overwrite our recommendation, select the charger option. If you aren't sure, we can help you estimate using the spots you have available or the vehicles that need charging at your workplace.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "A",
+          "chargers": {
+            "label": "I know how many charging ports I need",
+            "todayNumber": "10",
+            "chargersInNYears": "16"
+          },
+          "resultMessage": "This results in a total of 32 vehicles being charged.",
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        },
+        "modifyGrowthFactorPortNumber": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let’s determine how many chargers you’ll need. Choose \"I know how many charging ports I need\" if you know your exact requirement or wish to override our recommendations. If you're unsure, you can estimate your needs based on available parking spots or how many vehicles require charging.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "A",
+          "chargers": {
+            "label": "I know how many charging ports I need",
+            "todayNumber": "10",
+            "chargersInNYears": "16"
+          },
+          "yearGrowthMessage": "Plan for 10 year growth",
+          "yearGrowth": "true",
+          "growthFactor": "14",
+          "resultMessage": "This results in a total of 20 vehicles being charged.",
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        },
+        "modifyVehiclesOption": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let's figure out how many chargers you will need. If you know exactly how many you will need, or you want to overwrite our recommendation, select the charger option. If you aren't sure, we can help you estimate using the spots you have available or the vehicles that need charging at your workplace.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "B",
+          "vehicles": {
+            "label": "I know how many vehicles need charging",
+            "employeeVehicles": "10",
+            "portsToday": "5",
+            "portsInNYears": "8"
+          },
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        },
+        "modifyParkingOption": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let's figure out how many chargers you will need. If you know exactly how many you will need, or you want to overwrite our recommendation, select the charger option. If you aren't sure, we can help you estimate using the spots you have available or the vehicles that need charging at your workplace.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "C",
+          "parking": {
+            "label": "I know how many spots I have available",
+            "parkingSpots": "10",
+            "utilizingPercentage": "10",
+            "portsToday": "1",
+            "portsInNYears": "2"
+          },
+          "resultMessage": "This results in a total of 4 vehicles being charged.",
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        },
+        "modifyGrowthFactorParkingOption": {
+          "titleName" : "Charging Needs",
+          "subMessage": "Let’s determine how many chargers you’ll need. Choose \"I know how many charging ports I need\" if you know your exact requirement or wish to override our recommendations. If you're unsure, you can estimate your needs based on available parking spots or how many vehicles require charging.",
+          "alertMessage": "Your charging needs will naturally adjust over the life of the project. We have provided a “Ports in 10 years” figure which adds a 5% growth in charging needs every year.",
+          "scenario": "C",
+          "parking": {
+            "label": "I know how many spots I have available",
+            "parkingSpots": "10",
+            "utilizingPercentage": "10",
+            "portsToday": "1",
+            "portsInNYears": "2"
+          },
+          "yearGrowthMessage": "Plan for 10 year growth",
+          "yearGrowth": "true",
+          "growthFactor": "15",
+          "resultMessage": "This results in a total of 2 vehicles being charged.",
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management."
+        }
+      },
+      "chargerSelection": {
+        "default": {
+          "subHeader": "Choose the charger that best suits your needs. Level 2 is the most common and satisfies 90% of projects. Estimated charging times, prices, and outputs are included in each description to help you select the right option for you.",
+          "alertMessage": "A generic charger has been selected based on your needs.",
+          "chargerName": "Generic Level 2 - 7.2 kW",
+          "chargerBody": "Level 2 - 7.2 kW",
+          "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/SINGLE%20PORT%20WALL%20CHARGER%207.2KW.png",
+          "chargerConfig": {
+            "chargerSet": "Set 1",
+            "type": "Level 2",
+            "output": "7.2 kW",
+            "model": "Generic Level 2 - 7.2 kW",
+            "msrp": "$350",
+            "ports": "1",
+            "plugType": "J1772",
+            "image": "https://assets.zappyride.com/img/commercial_chargers/archetypes/SINGLE PORT WALL CHARGER 7.2KW.png",
+            "amps": "30",
+            "chargerInfoTable": {
+              "chargerInfoColumns": [
+                "Per ChargerTotal"
+              ],
+              "quantity": [
+                "Quantity5"
+              ],
+              "price": [
+                "Price$350$1,904"
+              ],
+              "ports": [
+                "Ports15"
+              ],
+              "output": [
+                "kW Output7.2 kW36 kW"
+              ],
+              "amps": [
+                "Amps30 amps150 amps"
+              ],
+              "plugType": [
+                "Plug TypeJ1772"
+              ]
+            }
+          },
+          "chargingTimeLabel": "Charging Time",
+          "equipPriceLabel": "Equipment Price/port",
+          "installPriceLabel": "Installation Price/port",
+          "outputLabel": "Output",
+          "levels": [
+            {
+              "name": "Level 1",
+              "chargingTime": "10-40+ Hours",
+              "equipPrice": "$300- $1,500",
+              "installPrice": "$0",
+              "output": "1 KW"
+            },
+            {
+              "name": "Level 2",
+              "chargingTime": "2-10 Hours",
+              "equipPrice": "$1,000- $4,000",
+              "installPrice": "~$3,000",
+              "output": "3-20 KW"
+            },
+            {
+              "name": "Level 3",
+              "chargingTime": "<1 Hour",
+              "equipPrice": "$55,000",
+              "installPrice": "~$20,000",
+              "output": "50+ KW"
+            }
+          ]
+        },
+        "level1Tooltip": "Level 1 chargers can be plugged into a standard residential 120-volt (120V) AC outlet.",
+        "level2Tooltip": "Level 2 chargers use 240 volts, charge at over triple the speed of a level 1 charger.",
+        "level3Tooltip": "Level 3 chargers (or DCFCs) are the fastest EV chargers, and are typically found in commercial or industrial applications. The installation of level 3 chargers is much more complex and expensive than level 1 or 2.",
+        "chargingTime1Tooltip": "How long it takes on average to charge a vehicle to 100%. Assuming a <xx> mile commute a typical EV will require <yy:> kWh of charge.A <zz> kW charger will add this charge in <aa> hours and <bb> minutes",
+        "equipPrice1Tooltip": "The purchase price of electric vehicle supply equipment (chargers).",
+        "installPrice1Tooltip": "The price of installing chargers, including labor, trenching, materials, etc."
+      },
+      "chargerUsage": {
+        "default": {
+          "title": "Charger Usage",
+          "subHeader": "This information will be used to calculate the expected electricity costs and determine electricity usage.",
+          "daysLabel": "MON, TUE, WED, THU, FRI",
+          "startTime": "09:00 AM",
+          "endData:": "11:00 PM",
+          "chargerAccess": "Public",
+          "indirectRevenue": "",
+          "chargingRevenue": "No cost"
+        }
+      },
+      "siteRequirements": {
+        "default": {
+          "subHeader": "We use this information to calculate installation costs.",
+          "alertPreMessage": "Based on what you've told us your charging needs of",
+          "alertPostMessage": "chargers, your panel will need to accommodate an increase of at least",
+          "distanceToPanelLabel": "Approximate distance to panel",
+          "distanceToPanel": "11-50 feet",
+          "needNewPanelLabel": "Do you need a new panel?",
+          "needNewPanel": "Yes",
+          "needNewPanelTooltip": "We estimate an average cost of $6,500 plus sales tax for a new panel. If you select “I don't know” we will assume you don't need a new one, but you can always change this later from the assumptions panel.",
+          "concreteSlabLabel": "Ft2 of concrete slab",
+          "ftOfConcreteSlab": "9",
+          "concreteSlabTooltip": "Square feet of concrete slab to be poured as foundation for the charging equipment. We have provided an average of 9 ft"
+        },
+        "modifySiteRequirement": {
+
+        }
+      }
+    }
+  }
+]

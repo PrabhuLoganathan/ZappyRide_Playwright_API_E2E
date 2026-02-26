@@ -1,0 +1,62 @@
+{
+  "project": {
+    "locationEnum": "workplace_facility",
+    "organization": {
+      "is_priority_district": false,
+      "is_tax_exempt": false,
+      "is_public": false,
+      "is_military_related": false,
+      "organization_type": "medium_or_large_businesses"
+    },
+    "site": {
+      "address": {
+        "power_supplier": {
+          "name": "Duquesne Light Co"
+        },
+        "postcode": "15219",
+        "region": "Pennsylvania"
+      },
+      "for_multiple_sites": false,
+      "dac_type": [],
+      "in_a_dac": false
+    },
+    "vehicles": [
+      {
+        "name": "Generic Hatchback Passenger",
+        "count": 10,
+        "details": {
+          "handle": "on_road_hatchback_light_duty",
+          "years_of_operation": 10,
+          "type": "vehicle",
+          "internal_vehicle_fuel_type": "ev",
+          "miles_per_gallon_equivalent": 170.54655870445345,
+          "electric_range": 275,
+          "total_range": 275,
+          "electric_efficiency": 0.1976,
+          "gvwr": 4200,
+          "replaces_ice_vehicle": true
+        },
+        "type": "vehicle"
+      }
+    ],
+    "chargers": [
+      {
+        "count": 10,
+        "details": {
+          "type": "charger",
+          "charger_id": "Webasto_TurboDX_16_Amp_25_ft",
+          "price": 399
+        },
+        "identifier": "Webasto_TurboDX_16_Amp_25_ft",
+        "is_networked": false,
+        "is_open_to_public": true
+      }
+    ],
+    "version": "v1",
+    "project_type": "fleets",
+    "projected_cost": 353990,
+    "years_of_operation": 10,
+    "annual_kwh": 51376,
+    "estimated_installation_costs": 14581
+  }
+}

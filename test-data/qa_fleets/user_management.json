@@ -1,0 +1,165 @@
+[
+  {
+    "usersManagement": {
+      "endUser": {
+        "userName": "minh_comport@yahoo.com",
+        "password": "Password!123",
+        "roleName": "End User"
+      },
+      "clientUser": {
+        "userName": "minh.vu@jdpa.com",
+        "password": "Password!123",
+        "roleName": "Client User"
+      },
+      "adminUser": {
+        "userName": "minh.vu+admin@jdpa.com",
+        "password": "Password!123",
+        "roleName": "Client Admin"
+      },
+      "config": {
+        "heroBanner": {
+          "logo": "https://qa-evdeploy.fleets.d.zappyride.com/ZappyRide.png",
+          "header": "Your guide to charging at work",
+          "subheader": "Estimate costs, timelines, savings, incentives & more.",
+          "leftImage": "",
+          "middleImage": "",
+          "rightImage": ""
+        },
+        "generalInfo": {
+          "subHeader": "We use this information to calculate costs and applicable incentives.",
+          "alertMessage": "Anything you share on this tool is used locally for estimation purposes",
+          "organizationType": "Medium or Large Business",
+          "zipCode": "94038",
+          "yearsOfOperation": "5",
+          "yearOfOperationTooltip": "This number refers to the lifetime of your project, not the term of your financing. The two periods may vary.",
+          "projectName": "ScenarioA_DemoProject",
+          "startDate": "03/22/2024",
+          "chargerOnSiteToday": "0",
+          "organizationSize": "Small business (1-50 employees)"
+        },
+        "workplaceNeeds": {
+          "resultMessage": "This results in a total of 14 vehicles being charged.",
+          "subHeader": "Let's figure out how many chargers you will need. If you know exactly how many you will need, or you want to overwrite our recommendation, select the charger option. If you aren't sure, we can help you estimate using the spots you have available or the vehicles that need charging at your workplace.",
+          "secondaryMessage": "Ensure your plans account for an increase in charging needs over time to save on installation. We have provided a “Ports in 5 years” figure which adds a 5% growth in charging needs every year. If you would like to use that number of chargers instead, you can manually input the charger count above.",
+          "scenario": "A",
+          "chargers": {
+            "label": "I know how many charging ports I need",
+            "todayNumber": "4",
+            "chargersInNYears": "7"
+          },
+          "parking": {
+            "label": "I know how many spots I have available",
+            "spots": "100",
+            "utilizingPercentage": "5",
+            "chargersToday": "500",
+            "chargersInNYears": "77500"
+          },
+          "vehicles": {
+            "label": "I know how many vehicles need charging",
+            "number": "25",
+            "chargersToday": "9",
+            "chargersInNYears": "1395"
+          },
+          "multipleVehicles": true,
+          "multipleVehiclesLabel": "Multiple vehicles will share charger ports",
+          "multipleVehiclesTooltip": "Selecting this option if employees will move their vehicles during the day so that multiple EVs can be charged using the same charger. Adds one vehicle per charger to your estimation. We will assume you need fewer chargers, and that you will do management.",
+          "chargerUsedForCompanyVehicles": true,
+          "chargerUsedForCompanyVehiclesLabel": "Chargers will also be used for company vehicles",
+          "chargerUsedForCompanyVehiclesTooltip": "This will have no impact on number of chargers, but you could have higher electric throughput. Adds one vehicle per charger to your estimation."
+        },
+        "chargerSelection": {
+          "subHeader": "Which type of charger works best for your needs? Level 2 is the most common solution, and meets the needs of 90% of projects. Ensure you check the estimated charging times, prices, and outputs in order to choose the best option.",
+          "alertMessage": "A generic charger has been selected based on your needs.",
+          "chargerName": "Generic Level 2 - 7.2 kW",
+          "chargerBody": "Level 2 - 7.2 kW",
+          "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/SINGLE%20PORT%20WALL%20CHARGER%207.2KW.png",
+          "chargerConfig": {
+            "chargerSet": "Set 1",
+            "type": "Level 2",
+            "output": "7.2 kW",
+            "model": "Generic Level 2 - 7.2 kW",
+            "msrp": "$350",
+            "ports": "1",
+            "amps": 30,
+            "plugType": "J1772",
+            "image": "https://assets.zappyride.com/img/commercial_chargers/archetypes/SINGLE PORT WALL CHARGER 7.2KW.png",
+            "chargerInfoTable": {
+              "chargerInfoColumns": [
+                "Per ChargerTotal"
+              ],
+              "quantity": [
+                "Quantity7"
+              ],
+              "price": [
+                "Price$350$2,666"
+              ],
+              "ports": [
+                "Ports17"
+              ],
+              "output": [
+                "kW Output7.2 kW50.4 kW"
+              ],
+              "amps": [
+                "Amps30 amps210 amps"
+              ],
+              "plugType": [
+                "Plug TypeJ1772"
+              ]
+            }
+          },
+          "chargingTimeLabel": "Charging Time",
+          "equipPriceLabel": "Equipment Price/port",
+          "installPriceLabel": "Installation Price/port",
+          "outputLabel": "Output",
+          "levels": [
+            {
+              "name": "Level 1",
+              "chargingTime": "10-40+ Hours",
+              "equipPrice": "$300- $1,500",
+              "installPrice": "$0",
+              "output": "1 KW"
+            },
+            {
+              "name": "Level 2",
+              "chargingTime": "2-10 Hours",
+              "equipPrice": "$1,000- $4,000",
+              "installPrice": "~$3,000",
+              "output": "3-20 KW"
+            },
+            {
+              "name": "Level 3",
+              "chargingTime": "<1 Hour",
+              "equipPrice": "$55,000",
+              "installPrice": "~$20,000",
+              "output": "50+ KW"
+            }
+          ],
+          "level1Tooltip": "Level 1 chargers can be plugged into a standard residential 120-volt (120V) AC outlet.",
+          "level2Tooltip": "Level 2 chargers use 240 volts, charge at over triple the speed of a level 1 charger.",
+          "level3Tooltip": "Level 3 chargers (or DCFCs) are the fastest EV chargers, and are typically found in commercial or industrial applications. The installation of level 3 chargers is much more complex and expensive than level 1 or 2.",
+          "chargingTime1Tooltip": "How long it takes on average to charge a vehicle to 100%. Assuming a <xx> mile commute a typical EV will require <yy:> kWh of charge.A <zz> kW charger will add this charge in <aa> hours and <bb> minutes",
+          "equipPrice1Tooltip": "The purchase price of electric vehicle supply equipment (chargers).",
+          "installPrice1Tooltip": "The price of installing chargers, including labor, trenching, materials, etc."
+        },
+        "chargerUsage": "NoCosts",
+        "siteRequirements": {
+          "subHeader": "We use this information to calculate installation costs. If you select “I don't know”, we will assume you don't need a new panel, but you can always change this later from the assumptions panel.",
+          "alertPreMessage": "Based on what you've told us your charging needs of",
+          "alertPostMessage": "chargers, your panel will need to accommodate an increase of at least ",
+          "distanceToPanelLabel": "Approximate distance to panel",
+          "distanceToPanel": "11-50 feet",
+          "needNewPanelLabel": "Do you need a new panel?",
+          "needNewPanel": "Yes",
+          "needNewPanelTooltip": "We estimate an average cost of $6,500 plus sales tax for a new panel. If you select “I don't know” we will assume you don't need a new one, but you can always change this later from the assumptions panel.",
+          "concreteSlabLabel": "Ft2 of concrete slab",
+          "ftOfConcreteSlab": "9",
+          "concreteSlabTooltip": "Square feet of concrete slab to be poured as foundation for the charging equipment. We have provided an average of 9 ft"
+        }
+      },
+      "welcome": {
+        "title": "Welcome to Charge@Work",
+        "message": "Thanks for sharing your charging needs! You have completed the first step, and can now delve through the estimations we’ve generated for your project. Be sure to check out our partners to help facilitate your charger installation project."
+      }
+    }
+  }
+]

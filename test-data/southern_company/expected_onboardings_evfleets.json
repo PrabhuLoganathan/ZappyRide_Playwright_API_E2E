@@ -1,0 +1,342 @@
+[
+  {
+    "onboarding": {
+      "endUserIn": {
+        "userName": "minh.vu@jdpa.com",
+        "password": "Password!123",
+        "roleName": "Client User"
+      },
+      "landing": {
+        "url": "https://dev-fleetspremium.saas.d.zappyride.com/",
+        "header": "There are Many Ways to Electrify",
+        "headerDescription": "Tell us more about your specific requirements so we can recommend the appropriate equipment for your needs, identify incentives, and estimate cost savings. Explore some project type options below.",
+        "logo": "https://assets.zappyride.com/resource/southernCompany/resources.logo-5123c712-22cc-4f4d-8244-dd6404cf32dc.png",
+        "FleetTitle": "Fleets",
+        "WorkplaceChargingTitle": "Workplace Charging",
+        "PublicChargingTitle": "Public Charging",
+        "MUDChargingTitle": "MUD Charging",
+        "fleetIcon": "https://assets.zappyride.com/img/icons/aps/aps-organization.svg",
+        "workplaceIcon": "https://assets.zappyride.com/img/icons/aps/aps-tellus.svg",
+        "publicIcon": "https://assets.zappyride.com/img/icons/aps/aps-save.svg",
+        "MUDIcon": "https://assets.zappyride.com/img/icons/aps/aps-save.svg",
+        "fleetMessage": "Compare the total costs of electrifying your fleet. ",
+        "workplaceMessage": "Explore the total costs of installing chargers at your workplace.",
+        "publicMessage": "Analyze the total costs and revenue of providing publicly available chargers.",
+        "MUDMessage": "Check the total costs of installing chargers for residents at your Multi Unit Dwellings.",
+        "alertMessage": "Looking to replace your existing Fossil Fuel Fleet? See how much you can save by electrifying your fossil fuel fleet, available as a guest user"
+      },
+      "projectList": {},
+      "projectType": {
+        "title": "How Do You Want to Electrify?",
+        "subMessage": "Choose a scenario and click Next to continue."
+      },
+      "generalInformation": {
+        "default": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "DefaultGeneralInfo",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "modifyDefaultValues": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "ModifyGeneralInfo",
+          "scenarioName": "Modify Scenario",
+          "organizationType": "Car Sharing Companies",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": "5 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dac": "false",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "modifyProjectLifetime": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "ModifyProjectLifetime",
+          "scenarioName": "Scenario",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": ["1 year","6 years","20 years"],
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dac": "false",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "updateOrganizationType": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "SelectionPrioritizedDistricts",
+          "scenarioName": "Prioritized Districts",
+          "organizationType": ["Local Government Entities","Native Tribes","Private School Districts","Public School Districts"],
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "enableJustice40": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "enableJustice40",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "enableDAC": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "enableDAC",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "39074",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "updateMilitaryOrganizationType": {
+          "titleName": "General Information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "SelectionMilitary",
+          "scenarioName": "Prioritized Military",
+          "organizationType": ["Medium or Large Businesses","Small Businesses","State Government Entities"],
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "military": "false",
+          "militaryMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "66015",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        }
+      },
+      "selectVehicle": {
+        "default": {
+          "titleName" : "Select Vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": "Equipment Set #1",
+          "numberOfVehicles": "5",
+          "financeType": "Cash",
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab."
+        },
+        "modifyDefaultValues": {
+          "titleName" : "Select Vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": ["","Modify Equipment Set Name"],
+          "numberOfVehicles": ["0","1","10"],
+          "financeType": ["Finance","Lease","Cash"],
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab."
+        },
+        "addElectricVehicle": {
+          "titleName" : "Select Vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": "Equipment Set #1",
+          "numberOfVehicles": "5",
+          "financeType": "Cash",
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab.",
+          "evModel": {
+            "image": "https://assets.zappyride.com/img/vehicles/generic/westward_max_ev_6_bev.png",
+            "modelName": "Westward Vehicles Max EV 6 (2024)",
+            "range": "32 mi",
+            "batteryCapacity": "6 kWh",
+            "efficiency": "18.75 MPGe",
+            "weightClass": "1",
+            "estimatedPrice": "$19,950"
+          }
+        },
+        "addFossilFuel": {
+          "titleName" : "Select Vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": "Equipment Set #1",
+          "numberOfVehicles": "5",
+          "financeType": "Cash",
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab.",
+          "ffModels": [
+            {
+              "image": "https://assets.zappyride.com/img/vehicles/generic/westward_max_ev_6_bev.png",
+              "modelName": "Navistar International CV515 Diesel",
+              "range": "225 mi",
+              "batteryCapacity": "diesel",
+              "efficiency": "8 MPG",
+              "weightClass": "5",
+              "estimatedPrice": "$75,000"
+            },
+            {
+              "image": "https://assets.zappyride.com/img/vehicles/commercial-vehicle-archtypes/large-images-1280-960/Medium_Duty_Box_Truck.png",
+              "modelName": "Generic heavy duty box truck",
+              "range": "163 mi",
+              "batteryCapacity": "153 kWh",
+              "efficiency": "33.08 MPGe",
+              "weightClass": "5",
+              "estimatedPrice": "$222,000"
+            }
+          ]
+        }
+      },
+      "vehicleUsage" :{
+        "default": {
+          "titleName" : "Vehicle Usage",
+          "subMessage": "This information helps us determine EV and charger recommendations based on your vehicle’s range and charging requirements. Please enter details for the vehicle you’re currently using or plan to purchase.",
+          "alertMessage": "If vehicle usage exceeds 75 miles per day then your vehicles will need to be charged more than once per day (e.g. in the middle of the day). Alternatively, you may want to reduce the number of vehicles of this type on the previous screen so only vehicles used for under 75 hours per day are switched to EVs.",
+          "avgBusinessMiles": "75",
+          "weekDays": true,
+          "allMonths": true
+        },
+        "modifyAvgBusinessMiles": {
+          "titleName" : "Vehicle Usage",
+          "subMessage": "This information helps us determine EV and charger recommendations based on your vehicle’s range and charging requirements. Please enter details for the vehicle you’re currently using or plan to purchase.",
+          "alertMessage": "If vehicle usage exceeds 75 miles per day then your vehicles will need to be charged more than once per day (e.g. in the middle of the day). Alternatively, you may want to reduce the number of vehicles of this\n type on the previous screen so only vehicles used for under 75 hours per day are switched to EVs.",
+          "avgBusinessMiles": ["0","150"],
+          "weekDays": true,
+          "allMonths": true
+        }
+      },
+      "chargingBehavior": {
+        "default": {
+          "titleName" : "Charging Behavior",
+          "subMessage": "Think ahead to when you expect to charge your new EVs. Enter each daily window of time you expect to charge your vehicles and where, and we will recommend an ideal charger.",
+          "alertMessage": "You can minimize your demand costs by charging between the hours of 9:00 PM and 5:00 AM when heating and cooling loads are at a minimum.",
+          "modelName": "Equipment Set #1",
+          "modelImage": "https://assets.zappyride.com/img/vehicles/commercial-vehicle-archtypes/large-images-1280-960/Medium_Duty_Cargo_Van.png",
+          "modelNamePlusCount": "5x Generic Medium Duty Cargo Van",
+          "chargerSetTotal": "5",
+          "chargerDetails": {
+            "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/AC_7.2_1.png",
+            "chargerName": "Generic Level 2 - 7.2 kW",
+            "plugType": "J1772",
+            "portsNumber": "1",
+            "estimatedCost": "$350",
+            "amps": "30"
+          },
+          "startTime": ["06:00 PM"],
+          "endTime": ["06:00 AM"],
+          "chargerAccess": ["Private [Fleet Owned]"],
+          "chargingCostsMessage": "Use the checkboxes below to include or exclude charging costs such as purchase, installation, or operation. To exclude a cost, simply uncheck the corresponding box."
+        },
+        "defaultEv": {
+          "titleName" : "Charging Behavior",
+          "subMessage": "Think ahead to when you expect to charge your new EVs. Enter each daily window of time you expect to charge your vehicles and where, and we will recommend an ideal charger.",
+          "alertMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours.",
+          "modelName": "Equipment Set #1",
+          "modelImage": "https://assets.zappyride.com/img/vehicles/commercial-vehicle-archtypes/large-images-1280-960/Medium_Duty_Box_Truck.png",
+          "modelNamePlusCount": "5x Generic heavy duty motor coach",
+          "chargerSetTotal": "5",
+          "chargerDetails": {
+            "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/SINGLE PORT WALL CHARGER 11.5KW-01.png",
+            "chargerName": "Generic Level 2 - 11.52 kW",
+            "plugType": "J1772",
+            "portsNumber": "1",
+            "estimatedCost": "$600",
+            "amps": "48"
+          },
+          "startTime": ["06:00 PM"],
+          "endTime": ["06:00 AM"],
+          "chargerAccess": ["Private [Fleet Owned]"]
+        },
+        "addChargingWindow": {
+          "alertMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours.",
+          "startTime": ["06:00 PM","12:00 PM"],
+          "endTime": ["06:00 AM","02:00 PM"],
+          "chargerAccess": ["Private [Fleet Owned]","Private [Fleet Owned]"]
+        },
+        "modifyChargerTotal": {
+          "titleName" : "Charging Behavior",
+          "modelName": "Equipment Set #1",
+          "modelImage": "https://assets.zappyride.com/img/vehicles/generic/westward_max_ev_6_bev.png",
+          "modelNamePlusCount": "5x Westward Vehicles Max EV 6",
+          "newChargerSetTotal": ["0","1", "10"],
+          "chargerDetails": {
+            "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/SINGLE PORT WALL CHARGER 7.2KW.png",
+            "chargerName": "Generic Level 2 - 7.2 kW",
+            "plugType": "J1772",
+            "portsNumber": "1",
+            "estimatedCost": "$350"
+          }
+        },
+        "replaceNewCharger": {
+          "titleName" : "Charging Behavior",
+          "modelName": "Equipment Set #1",
+          "modelImage": "https://assets.zappyride.com/img/vehicles/commercial-vehicle-archtypes/thumbnails/Medium_Duty_Cargo_Van.png",
+          "modelNamePlusCount": "5x Generic Medium Duty Cargo Van",
+          "chargerSetTotal": "5",
+          "chargerCatalog": {
+            "chargerTitle": "Charger Catalog",
+            "chargerSubTitle": "Select a charger that meets your needs",
+            "chargerMessage": "Remember to contact your utility company to confirm your chosen equipment qualifies for their programs."
+          },
+          "chargerDetails": {
+            "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/DC_24_1.png",
+            "chargerName": "Generic DCFC - 24 kW",
+            "plugType": "CCS1,CCS2,CHAdeMO",
+            "portsNumber": "1",
+            "estimatedCost": "$12,000"
+          }
+        }
+      },
+      "siteRequirements": {
+        "default": {
+          "title" : "Site Requirements",
+          "subHeader": "We use this information to calculate installation costs.",
+          "alertPreMessage": "Based on what you've told us your charging needs of",
+          "alertPostMessage": "chargers, your panel will need to accommodate an increase of at least",
+          "distanceToPanel": "11-50 feet",
+          "needNewPanel": "Yes",
+          "ftOfConcreteSlab": "9"
+        }
+      }
+    }
+  }
+]

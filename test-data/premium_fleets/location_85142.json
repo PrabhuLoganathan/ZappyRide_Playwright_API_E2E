@@ -1,0 +1,188 @@
+{
+  "code": 200,
+  "message": "",
+  "location": {
+    "country": "United States",
+    "section": "Mountain",
+    "region": "Arizona",
+    "district": "Maricopa County",
+    "municipality": "Queen Creek",
+    "postcode": "85142",
+    "longitude": "-111.63629000",
+    "latitude": "33.19999000",
+    "nearby_postcodes": [
+      "85127",
+      "85140",
+      "85142",
+      "85143",
+      "85147",
+      "85212",
+      "85227",
+      "85236",
+      "85240",
+      "85242",
+      "85243",
+      "85247",
+      "85249",
+      "85295",
+      "85297",
+      "85298"
+    ],
+    "power_supplier": [
+      {
+        "name": "City of Mesa",
+        "acronym": null,
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/NotAvailable.png"
+      },
+      {
+        "name": "Salt River Project",
+        "acronym": null,
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/SRP.png"
+      },
+      {
+        "name": "USBIA-San Carlos Project",
+        "acronym": null,
+        "type": "Distribution Utility",
+        "rates": [],
+        "logo_url": "https://assets.zappyride.com/img/utilities/NotAvailable.png"
+      }
+    ],
+    "regional_fuel_cost": [
+      {
+        "gasoline": 3.504,
+        "diesel": 3.781,
+        "electricity": 14.11,
+        "gasoline_tax": 19.0,
+        "diesel_tax": 27.0,
+        "commercial_electricity": 11.46,
+        "industrial_electricity": 7.68,
+        "transportation_electricity": 9.95,
+        "alternative_fuel_premium_gasoline": null,
+        "alternative_fuel_premium_diesel": null,
+        "alternative_fuel_premium_lpg": null
+      }
+    ],
+    "regional_electricity": [
+      {
+        "emissions": {
+          "emissions_co2": 314.8,
+          "emissions_so2": 0.0,
+          "emissions_nox": 0.2,
+          "emissions_co2_carbon_credit_calculation": []
+        },
+        "power_mix": {
+          "coal": 0.28,
+          "petroleum": 0.0,
+          "nuclear": 0.3,
+          "hydro": 0.07,
+          "wind": 0.0,
+          "solar": 0.03,
+          "biomass": 0.0,
+          "other": 0.0,
+          "natural_gas": 0.31
+        }
+      }
+    ],
+    "regional_financial_references": [
+      {
+        "rates": null,
+        "sales_tax": {
+          "region": 5.6,
+          "combined": 8.37,
+          "avg_local": 2.77
+        },
+        "ev_registration_fees": {
+          "add_on_registration_fees": 12,
+          "registration_fees": 9.5
+        },
+        "ice_insurance_annual_premium": 1617.0,
+        "doc_prep_fees": 410
+      }
+    ],
+    "national_fuel_cost": [
+      {
+        "gasoline": 3.904,
+        "diesel": 5.178,
+        "electricity": 14.47,
+        "gasoline_tax": 18.4,
+        "diesel_tax": 24.4,
+        "commercial_electricity": 11.77,
+        "industrial_electricity": 7.5,
+        "transportation_electricity": 10.84
+      }
+    ],
+    "national_electricity": [
+      {
+        "emissions": {
+          "emissions_co2": 388.0,
+          "emissions_so2": 0.255,
+          "emissions_nox": 0.302
+        },
+        "power_mix": {
+          "coal": 0.193,
+          "petroleum": 0.004,
+          "nuclear": 0.197,
+          "hydro": 0.073,
+          "wind": 0.084,
+          "solar": 0.023,
+          "biomass": 0.014,
+          "other": 0.003,
+          "natural_gas": 0.405
+        }
+      }
+    ],
+    "national_financial_references": [
+      {
+        "rates": {
+          "sofr": 4.81
+        },
+        "sales_tax": null,
+        "ev_registration_fees": null,
+        "ice_insurance_annual_premium": 1681.0,
+        "doc_prep_fees": null
+      }
+    ],
+    "carbon_credits": [],
+    "ratios": [
+      {
+        "name": "fuel_energy_economic_ratio_diesel",
+        "description": "diesel",
+        "value": 5.0
+      },
+      {
+        "name": "fuel_energy_economic_ratio_gasoline",
+        "description": "gas",
+        "value": 3.4
+      },
+      {
+        "name": "fuel_energy_economic_ratio_lpg",
+        "description": "lpg",
+        "value": 5.0
+      },
+      {
+        "name": "mpgeConversion",
+        "description": "N/A",
+        "value": 0.0
+      },
+      {
+        "name": "energyDensity",
+        "description": "MJ per kWh",
+        "value": 3.6
+      },
+      {
+        "name": "cad_per_usd",
+        "description": "CA to USD Conversion",
+        "value": 1.36
+      },
+      {
+        "name": "ca_to_us_cost_adjustment",
+        "description": "CA to USD Cost Adjustment",
+        "value": 1.05
+      }
+    ]
+  }
+}

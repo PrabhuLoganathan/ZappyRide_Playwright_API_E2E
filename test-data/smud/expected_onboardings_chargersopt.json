@@ -1,0 +1,1016 @@
+[
+  {
+    "onboarding": {
+      "endUserIn": {
+        "userName": "minh.vu@jdpa.com",
+        "password": "Password!123",
+        "roleName": "Client User"
+      },
+      "landing": {
+        "url": "https://dev-fleetspremium.saas.d.zappyride.com/",
+        "header": "There are Many Ways To Electrify",
+        "headerDescription": "Please register or sign in, then you will be prompted to tell us more about your specific requirements so we can recommend the appropriate equipment for your needs, identify incentives, and estimate cost savings. We can help with:",
+        "logo": "https://images.squarespace-cdn.com/content/v1/60c3c0c4e6193a3137d44071/8d670981-19b0-4f91-8d0a-4003e3277ca0/Site+Logo.png",
+        "FleetTitle": "Fleets",
+        "WorkplaceChargingTitle": "Workplace Charging",
+        "PublicChargingTitle": "Public Charging",
+        "MUDChargingTitle": "MUD Charging",
+        "fleetIcon": "https://assets.zappyride.com/img/icons/aps/aps-organization.svg",
+        "workplaceIcon": "https://assets.zappyride.com/img/icons/aps/aps-tellus.svg",
+        "publicIcon": "https://assets.zappyride.com/img/icons/aps/aps-save.svg",
+        "MUDIcon": "https://assets.zappyride.com/img/icons/aps/aps-save.svg",
+        "fleetMessage": "Compare the total costs of fleets of electrifying your fleet. See a quick example of a fossil fuel to electric fleet comparison by clicking “Continue as Guest” below.",
+        "workplaceMessage": "Discover how much it costs to install chargers at your workplace.",
+        "publicMessage": "Compare the costs and revenue of providing public chargers.",
+        "MUDMessage": "Find out how much it costs to install chargers at multi-unit dwellings (MUD).",
+        "alertMessage": "Looking to replace your existing Fossil Fuel Fleet? See how much you can save by electrifying your fossil fuel fleet, available as a guest user"
+      },
+      "projectList": {},
+      "projectType": {
+        "title": "How do you want to electrify?",
+        "subMessage": "Select which scenario applies to you."
+      },
+      "generalInformation": {
+        "default": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "DefaultGeneralInfo",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "95817",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "modifyDefaultValues": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "ModifyGeneralInfo",
+          "scenarioName": "Modify Scenario",
+          "organizationType": "Car Sharing Company",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": "5 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "95817",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dac": "false",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "modifyProjectLifetime": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "ModifyProjectLifetime",
+          "scenarioName": "Scenario",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "projectLifetime": [
+            "1 year",
+            "6 years",
+            "20 years"
+          ],
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "90210",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dac": "false",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "updateOrganizationType": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "SelectionPrioritizedDistricts",
+          "scenarioName": "Prioritized Districts",
+          "organizationType": [
+            "Local Government Entity",
+            "Native Tribe",
+            "Private School District",
+            "Public School District"
+          ],
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "95817",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "enableJustice40": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "enableJustice40",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "95817",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "enableDAC": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "enableDAC",
+          "scenarioName": "Scenario A",
+          "organizationType": "Medium or Large Businesses",
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "prioritizedSchoolDistrict": "false",
+          "prioritizedSchoolDistrictMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "95817",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        },
+        "updateMilitaryOrganizationType": {
+          "titleName": "General information",
+          "subMessage": "We use this information to calculate fuel costs and applicable incentives.",
+          "projectName": "SelectionMilitary",
+          "scenarioName": "Prioritized Military",
+          "organizationType": [
+            "Medium or Large Business",
+            "Small Business",
+            "State Government Agency",
+            "Federal Government Entity"
+          ],
+          "organizationTypeTooltip": "Your selection from this list will be used to determine incentive eligibility",
+          "military": "false",
+          "militaryMessage": "Check the list of prioritized school districts.",
+          "projectLifetime": "10 years",
+          "projectLifetimeTooltip": "Project lifetime is the amount of time you plan to operate the vehicles and/or charging infrastructure. This value is used to calculate your TCO analysis over the life of the project.",
+          "zipcode": "95817",
+          "zipcodeTooltip": "The zip or postal code of your project will be used to determine electricity pricing and potentially identify incentives.",
+          "justice40Community": "false",
+          "dac": "false",
+          "justice40CommunityMessage": "A Justice40 community, defined by President Biden's Executive Order 14008, is prioritized to receive at least 40% of benefits from federal investments targeting climate change and environmental justice. See community definition, and map data.",
+          "dacMessage": "Zip code includes a disadvantaged community, eligible for additional state incentives. Check the box to indicate your site is within a disadvantaged community. Disadvantaged Community Qualifications",
+          "alertMessage": "Increased incentive amounts provided for Justice 40 Community may vary by program and eligibility."
+        }
+      },
+      "selectVehicle": {
+        "default": {
+          "titleName": "Select vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": "Equipment set #1",
+          "numberOfVehicles": "5",
+          "financeType": "Cash",
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab."
+        },
+        "modifyNumberOfVehicles": "20",
+        "modifyDefaultValues": {
+          "titleName": "Select vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": [
+            "",
+            "Modify Equipment Set Name"
+          ],
+          "numberOfVehicles": [
+            "0",
+            "1",
+            "10"
+          ],
+          "financeType": [
+            "Finance",
+            "Lease",
+            "Cash"
+          ],
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab."
+        },
+        "addElectricVehicle": {
+          "titleName": "Select vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": "Equipment set #1",
+          "numberOfVehicles": "5",
+          "financeType": "Cash",
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab.",
+          "evModel": {
+            "image": "https://assets.zappyride.com/img/vehicles/generic/westward_max_ev_6_bev.png",
+            "modelName": "Westward Vehicles Max EV 6 (2024)",
+            "range": "32 mi",
+            "batteryCapacity": "6 kWh",
+            "efficiency": "18.75 MPGe",
+            "weightClass": "1",
+            "estimatedPrice": "$19,950"
+          }
+        },
+        "addFossilFuel": {
+          "titleName": "Select vehicle",
+          "subMessage": "Select your first vehicle. If you select a Fossil Fuel vehicle, an EV replacement will be selected for you. You can choose to remove EV chargers from your analysis if they are not relevant to your scenario. If you do not want to include vehicles in your comparison, please create a new project and select a different project type.",
+          "alertMessage": "If operating multiple vehicles over varying distances, consider grouping them into separate sets. You can create additional sets at the end of this setup wizard by clicking Create Scenario.",
+          "equipSetName": "Equipment set #1",
+          "numberOfVehicles": "5",
+          "financeType": "Cash",
+          "financeTooltip": "The finance type represents how you will pay for the vehicles selected. This finance type will assume default values based on your selection to calculate the finance costs. These can be changed later in the Financing tab.",
+          "ffModels": [
+            {
+              "image": "https://assets.zappyride.com/img/vehicles/generic/westward_max_ev_6_bev.png",
+              "modelName": "Navistar International CV515 Diesel",
+              "range": "225 mi",
+              "batteryCapacity": "diesel",
+              "efficiency": "8 MPG",
+              "weightClass": "5",
+              "estimatedPrice": "$75,000"
+            },
+            {
+              "image": "https://assets.zappyride.com/img/vehicles/commercial-vehicle-archtypes/large-images-1280-960/Medium_Duty_Box_Truck.png",
+              "modelName": "Generic heavy duty box truck",
+              "range": "163 mi",
+              "batteryCapacity": "153 kWh",
+              "efficiency": "33.08 MPGe",
+              "weightClass": "5",
+              "estimatedPrice": "$222,000"
+            }
+          ]
+        }
+      },
+      "vehicleUsage": {
+        "default": {
+          "titleName": "Vehicle usage",
+          "subMessage": "This information helps us determine EV and charger recommendations based on your vehicle’s range and charging requirements. Please enter details for the vehicle you’re currently using or plan to purchase.",
+          "alertMessage": "If Vehicle usage exceeds 75 miles per day then your vehicles will need to be charged more than once per day (e.g. in the middle of the day). Alternatively, you may want to reduce the number of vehicles of this type on the previous screen so only vehicles used for under 75 miles per day are switched to EVs.",
+          "avgBusinessMiles": "75",
+          "weekDays": true,
+          "allMonths": true
+        },
+        "modifyAvgBusinessMiles": {
+          "titleName": "Vehicle usage",
+          "subMessage": "This information helps us determine EV and charger recommendations based on your vehicle’s range and charging requirements. Please enter details for the vehicle you’re currently using or plan to purchase.",
+          "alertMessage": "If Vehicle usage exceeds 75 miles per day then your vehicles will need to be charged more than once per day (e.g. in the middle of the day). Alternatively, you may want to reduce the number of vehicles of this type on the previous screen so only vehicles used for under 75 miles per day are switched to EVs.",
+          "avgBusinessMiles": "200",
+          "weekDays": true,
+          "allMonths": true
+        }
+      },
+      "fewerPortsStrategy": {
+        "default": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "09:00 PM",
+            "endTime": "06:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "chargerFinancing" : "cash"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": true,
+            "timeToSwap": "15"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic DCFC - 40 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic DCFC - 40 kW",
+            "chargerPlug": "CCS1,CCS2",
+            "chargerPorts": "1",
+            "chargerCost": "$21,700",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 9:00 PM - 4:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 6 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifyChargingPreferences": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "08:00 PM",
+            "endTime": "10:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "80%",
+            "chargerFinancing": "Lease"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic DCFC - 24 kW",
+            "chargerWindow": "8:00 PM - 10:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic DCFC - 24 kW",
+            "chargerPlug": "CCS1,CCS2,CHAdeMO",
+            "chargerPorts": "1",
+            "chargerCost": "$12,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 10 hours, the minimum state of charge will be 32.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifySiteDetails": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "5000",
+            "wastage": "15%",
+            "staggering": true,
+            "timeToSwap": "10"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic DCFC - 40 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic DCFC - 40 kW",
+            "chargerPlug": "CCS1,CCS2",
+            "chargerPorts": "1",
+            "chargerCost": "$21,700",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 6 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "staggeringOff": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "06:00 PM",
+            "endTime": "08:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic Level 2 - 7.2 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 7.2 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$350",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 6 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "largerFleets": {
+            "titleName": "Charging strategy",
+            "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+            "selectChargingStrategy": "Select charging strategy",
+            "chargingPreferences": {
+                "section": "Charging preferences",
+                "startTime": "09:00 PM",
+                "endTime": "06:00 AM",
+                "chargerAccess": "Private (fleet-owned)",
+                "finalStateOfCharge": "85%",
+                "chargerFinancing": "cash"
+            },
+            "siteDetail": {
+                "section:": "Site details",
+                "gridCapacity": "200",
+                "wastage": "10%",
+                "staggering": true,
+                "timeToSwap": "15"
+            },
+            "chargerBehavior": {
+                "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+                "chargerName": "Generic DCFC - 62.5 kW",
+                "chargerWindow": "9:00 PM - 6:00 AM",
+                "vehicleName": "20x Generic Medium Duty Cargo Van",
+                "chargerLevelName": "Generic DCFC - 62.5 kW",
+                "chargerPlug": "CCS1,CHAdeMO,J1772",
+                "chargerPorts": "1",
+                "chargerCost": "$35,000",
+                "chargingCurveTitle": "Charging curve",
+                "chargingCurveChart": "chargingCurveChart.png",
+                "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 8:00 AM - 3:00 PM, and all day weekends)",
+                "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 8 hours, the minimum state of charge will be 22.23%.",
+                "minimumGroupTimeline": "minimumGroupTimeline.png"
+            }
+        },
+        "staggeringOffLargerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "06:00 PM",
+            "endTime": "08:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "chargerFinancing": "cash"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic Level 2 - 7.2 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 7.2 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$350",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 8 hours, the minimum state of charge will be 22.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifyChargingPreferencesLargerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "08:00 PM",
+            "endTime": "10:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "80%",
+            "chargerFinancing": "Lease"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic DCFC - 60 kW 2 port",
+            "chargerWindow": "8:00 PM - 10:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic DCFC - 60 kW 2 port",
+            "chargerPlug": "CCS1,CHAdeMO",
+            "chargerPorts": "2",
+            "chargerCost": "$34,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 12 hours, the minimum state of charge will be 17.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifySiteDetailsLargerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "15%",
+            "staggering": true,
+            "timeToSwap": "10"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fewest ports.",
+            "chargerName": "Generic DCFC - 60 kW 3 port",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic DCFC - 60 kW 3 port",
+            "chargerPlug": "CCS1,CHAdeMO,J1772",
+            "chargerPorts": "3",
+            "chargerCost": "$35,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 8 hours, the minimum state of charge will be 22.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        }
+      },
+      "cheapestStrategy": {
+        "default": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "09:00 PM",
+            "endTime": "06:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "chargerFinancing": "cash"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": true,
+            "timeToSwap": "15"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Least expensive charging.",
+            "chargerName": "Generic Level 2 - 19.2 kW 4 port",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "ratePlan": "Sacramento Municipal Utility District - C&I TOD Secondary 0-20 kW",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 19.2 kW 4 port",
+            "chargerPlug": "J1772",
+            "chargerPorts": "4",
+            "chargerCost": "$8,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 9:00 PM - 4:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 8 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifyChargingPreferences": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "10:00 PM",
+            "endTime": "10:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "80%",
+            "chargerFinancing": "Lease"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Least expensive charging.",
+            "chargerName": "Generic Level 2 - 19.2 kW 4 port",
+            "chargerWindow": "10:00 PM - 10:00 AM",
+            "ratePlan": "Sacramento Municipal Utility District - C&I TOD Secondary 0-20 kW",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 19.2 kW 4 port",
+            "chargerPlug": "J1772",
+            "chargerPorts": "4",
+            "chargerCost": "$8,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 9:00 PM - 4:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 8 hours, the minimum state of charge will be 32.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifySiteDetails": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "5000",
+            "wastage": "15%",
+            "staggering": true,
+            "timeToSwap": "5"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Least expensive charging.",
+            "chargerName": "Generic Level 2 - 19.2 kW 4 port",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "ratePlan": "Sacramento Municipal Utility District - C&I TOD Secondary 0-20 kW",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 19.2 kW 4 port",
+            "chargerPlug": "J1772",
+            "chargerPorts": "4",
+            "chargerCost": "$8,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 9:00 PM - 4:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 8 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "staggeringOff": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "06:00 PM",
+            "endTime": "08:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "titleName": "Charging strategy",
+            "subMessage": "Chargers have been selected below based on your charging strategy of Least expensive charging.",
+            "chargerName": "Generic Level 2 - 7.2 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "ratePlan": "Sacramento Municipal Utility District - C&I TOD Secondary 0-20 kW",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 7.2 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$350",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 9:00 PM - 4:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 6 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        }
+      },
+      "fastestStrategy": {
+        "default": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "09:00 PM",
+            "endTime": "06:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "chargerFinancing": "cash"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": true,
+            "timeToSwap": "15"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 9:00 PM - 4:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 4 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifyChargingPreferences": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "08:00 PM",
+            "endTime": "10:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "80%",
+            "chargerFinancing": "Lease"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",
+            "chargerWindow": "8:00 PM - 10:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 4 hours, the minimum state of charge will be 32.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifySiteDetails": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "5000",
+            "wastage": "15%",
+            "staggering": true,
+            "timeToSwap": "10"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic DCFC - 500 kW 6 port",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic DCFC - 500 kW 6 port",
+            "chargerPlug": "CCS1",
+            "chargerPorts": "6",
+            "chargerCost": "$305,000",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 08:00 AM - 03:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 0 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "staggeringOff": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "06:00 PM",
+            "endTime": "08:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "": "cash"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "5x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 8:00 AM - 3:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 75 miles per day that requires charging 47.55 kWh in 4 hours, the minimum state of charge will be 37.92%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "largerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "09:00 PM",
+            "endTime": "06:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "chargerFinancing": "cash"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "10%",
+            "staggering": true,
+            "timeToSwap": "15"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4:00 PM - 9:00 PM). To ensure the highest savings, charge during off-peak hours (M-F 8:00 AM - 3:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 6 hours, the minimum state of charge will be 22.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "staggeringOffLargerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "08:00 PM",
+            "endTime": "08:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "85%",
+            "chargerFinancing": "Lease"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 8:00 AM - 3:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 6 hours, the minimum state of charge will be 22.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifyChargingPreferencesLargerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "08:00 PM",
+            "endTime": "10:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "80%",
+            "chargerFinancing": "Lease"
+          },
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",
+            "chargerWindow": "8:00 PM - 10:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 8:00 AM - 3:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 6 hours, the minimum state of charge will be 17.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        },
+        "modifySiteDetailsLargerFleets": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "200",
+            "wastage": "15%",
+            "staggering": true,
+            "timeToSwap": "10"
+          },
+          "chargerBehavior": {
+            "subMessage": "Chargers have been selected below based on your charging strategy of Fastest charging.",
+            "chargerName": "Generic Level 2 - 9.6 kW",           
+            "chargerWindow": "9:00 PM - 6:00 AM",
+            "vehicleName": "20x Generic Medium Duty Cargo Van",
+            "chargerLevelName": "Generic Level 2 - 9.6 kW",
+            "chargerPlug": "J1772",
+            "chargerPorts": "1",
+            "chargerCost": "$450",
+            "chargingCurveTitle": "Charging curve",
+            "chargingCurveChart": "chargingCurveChart.png",
+            "chargerMessage": "The most expensive time to charge is during peak times (M-F 4pm - 9pm). To ensure the highest savings, charge during off-peak hours (M-F 8:00 AM - 3:00 PM, and all day weekends)",
+            "minimumStateChargeAlertMessage": "Based on these charging windows for your Generic Medium Duty Cargo Van driving 100 miles per day that requires charging 63.40 kWh in 6 hours, the minimum state of charge will be 22.23%.",
+            "minimumGroupTimeline": "minimumGroupTimeline.png"
+          }
+        }
+      },
+      "customStrategy": {
+        "default": {
+          "titleName" : "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "alertMessage": "The most expensive time to charge is during peak times (M-F 4 PM - 9 PM). To ensure the highest savings, charge during off-peak hours.",
+          "modelName": "Equipment set #1",
+          "modelImage": "https://assets.zappyride.com/img/vehicles/commercial-vehicle-archtypes/thumbnails/Medium_Duty_Cargo_Van.png",
+          "modelNamePlusCount": "5x Generic Medium Duty Cargo Van",
+          "chargerSetTotal": "5",
+          "chargerDetails": {
+            "chargerImage": "https://assets.zappyride.com/img/commercial_chargers/archetypes/AC_7.2_1.png",
+            "chargerName": "Generic Level 2 - 7.2 kW",
+            "plugType": "J1772",
+            "portsNumber": "1",
+            "estimatedCost": "$350",
+            "amps": "30"
+          },
+          "startTime": ["06:00 PM"],
+          "endTime": ["06:00 AM"],
+          "chargerAccess": ["Private (fleet-owned)"],
+          "chargingCostsMessage": "Use the checkboxes below to include or exclude charging costs such as purchase, installation, or operation. To exclude a cost, simply uncheck the corresponding box."
+        },
+        "modifyChargingPreferences": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "chargingPreferences": {
+            "section": "Charging preferences",
+            "startTime": "09:00 PM",
+            "endTime": "10:00 AM",
+            "chargerAccess": "Private (fleet-owned)",
+            "finalStateOfCharge": "80%"
+          }
+        },
+        "modifySiteDetails": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "5000",
+            "wastage": "15%",
+            "staggering": true,
+            "timeToSwap": "10"
+          }
+        },
+        "staggeringOff": {
+          "titleName": "Charging strategy",
+          "subMessage": "Please select the charging strategy that aligns best with your business objectives, as we will generate a charging plan based on your preferred choice. If you wish to create a unique approach without following a predefined strategy, you can select the custom option.",
+          "selectChargingStrategy": "Select charging strategy",
+          "siteDetail": {
+            "section:": "Site details",
+            "gridCapacity": "50",
+            "wastage": "10%",
+            "staggering": false,
+            "timeToSwap": "0"
+          }
+        }
+      },
+      "chargingResults": {
+      },
+      "siteRequirements": {
+        "default": {
+          "title": "Site requirements",
+          "subHeader": "We use this information to calculate installation costs. If you select “I don't know”, we will assume you don't need a new panel, but you can always change this later from the assumptions panel.",
+          "alertPreMessage": "Based on what you've told us your charging needs of",
+          "alertPostMessage": "chargers, your panel will need to accommodate an increase of at least",
+          "distanceToPanel": "11-50 feet",
+          "needNewPanel": "Yes",
+          "ftOfConcreteSlab": "9"
+        }
+      }
+    }
+  }
+]
