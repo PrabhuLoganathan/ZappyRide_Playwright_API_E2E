@@ -140,4 +140,83 @@ test.describe("Unified Vehicles API Tests", () => {
             expect(item.label).toBe(`Make: ${item.id}`);
         }
     });
+
+    test.describe("Edge Cases for /unified-vehicles/aggregate", () => {
+        test("Missing required attrId parameter", async ({ request }) => {
+            const token = await getBearerToken();
+            const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+                params: {
+                    attrLabel: "make",
+                    labelTemplate: "Make: __make__"
+                },
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                    "User-Agent": "PostmanRuntime/7.51.1",
+                    Accept: "*/*",
+                },
+            });
+
+            // Expect a 400 Bad Request
+            expect(response.status()).toBe(400);
+
+            const body = await response.json();
+            // Validate the error message structure
+            expect(body.code).toBe(400);
+            expect(body.message).toBe("The parameter attrId must not be empty");
+        });
+
+        test("Invalid attrId parameter", async ({ request }) => {
+            const token = await getBearerToken();
+            const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+                params: {
+                    attrId: "invalid_attribute_name",
+                    attrLabel: "make",
+                    labelTemplate: "Make: __make__"
+                },
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                    "User-Agent": "PostmanRuntime/7.51.1",
+                    Accept: "*/*",
+                },
+            });
+
+            // Expect a 400 Bad Request due to invalid attribute
+            expect(response.status()).toBe(400);
+
+            const body = await response.json();
+            // Validate the error message structure
+            expect(body.code).toBe(400);
+            expect(body.message).toBe("invalid_attribute_name not part of attributes");
+        });
+
+        test("Omitted labelTemplate uses default label", async ({ request }) => {
+            const token = await getBearerToken();
+            const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+                params: {
+                    attrId: "make",
+                    attrLabel: "make"
+                },
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                    "User-Agent": "PostmanRuntime/7.51.1",
+                    Accept: "*/*",
+                },
+            });
+
+            // Expect a 200 OK since labelTemplate is optional
+            expect(response.status()).toBe(200);
+
+            const body = await response.json();
+
+            // Validate top-level response properties
+            expect(body.code).toBe(200);
+            expect(Array.isArray(body.vehicles)).toBe(true);
+            expect(body.vehicles.length).toBeGreaterThan(0);
+
+            // Without a labelTemplate, the label should just match the id
+            const sampleItem = body.vehicles[0];
+            expect(sampleItem.label).toBe(sampleItem.id);
+            expect(sampleItem.label).not.toContain("Make:"); // Ensure the template was not applied
+        });
+    });
 });
