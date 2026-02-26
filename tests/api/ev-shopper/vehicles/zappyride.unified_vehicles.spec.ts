@@ -26,7 +26,10 @@ test.describe("Unified Vehicles API Tests", () => {
     });
 
     test("GET /unified-vehicles with extra_fields and fuel_type", async ({ request }) => {
+        // Step 1: Retrieve authentication token for the API request
         const token = await getBearerToken();
+
+        // Step 2: Make a GET request to the unified-vehicles endpoint with specific query parameters
         const response = await request.get("https://api.d.zappyride.com/unified-vehicles", {
             params: {
                 include_extra_fields: "equivalent_gas_vehicle",
@@ -43,41 +46,52 @@ test.describe("Unified Vehicles API Tests", () => {
             },
         });
 
+        // Step 3: Verify that the API responds with a 200 OK status code
         expect(response.status()).toBe(200);
+
+        // Parse the JSON response body
         const body = await response.json();
 
-        // Assert top-level structure
+        // Step 4: Assert top-level response structure
+        // Verify response is not null/undefined and contains valid total count and vehicles array
         expect(body).toBeTruthy();
         expect(typeof body.total).toBe("number");
         expect(Array.isArray(body.vehicles)).toBe(true);
         expect(body.vehicles.length).toBeGreaterThan(0);
 
-        // Validate vehicle level structure for requested fields
+        // Step 5: Validate the core structure of individual vehicles
+        // Extract a sample vehicle to check for required baseline properties
         const sampleVehicle = body.vehicles[0];
 
-        // Check for basic fields that are returned
+        // Ensure basic fields (internal_id, make, model) are present in the vehicle object
         expect(sampleVehicle).toHaveProperty("internal_id");
         expect(sampleVehicle).toHaveProperty("make");
         expect(sampleVehicle).toHaveProperty("model");
 
         let hasEquivalentGasVehicle = false;
 
+        // Step 6: Iterate through the returned vehicles to validate specific constraints
         for (const vehicle of body.vehicles) {
-            // Assert that internal_vehicle_fuel_type is strictly 'ev'
+            // Verify that all returned vehicles strictly match requested fuel type ('ev')
             expect(vehicle.internal_vehicle_fuel_type).toBe("ev");
 
-            // Check if the requested extra field `equivalent_gas_vehicle` is present and well-formed
+            // Evaluate the inclusion of the optionally requested `equivalent_gas_vehicle` field
             if (vehicle.equivalent_gas_vehicle) {
                 hasEquivalentGasVehicle = true;
                 const egv = vehicle.equivalent_gas_vehicle;
+
+                // Assert nested structure of the equivalent_gas_vehicle object
                 expect(egv).toHaveProperty("make");
                 expect(egv).toHaveProperty("model");
+
+                // Validate optional nested fields if they are populated
                 if (egv.msrp !== null) expect(typeof egv.msrp).toBe("number");
                 if (egv.handle !== null) expect(typeof egv.handle).toBe("string");
             }
         }
 
-        // Ensure at least one vehicle returned the extra field to validate it indeed works
+        // Step 7: Final Validation
+        // Ensure that the extra field request worked by verifying at least one vehicle has the equivalent_gas_vehicle data
         expect(hasEquivalentGasVehicle).toBe(true);
     });
 });
