@@ -165,4 +165,158 @@ test.describe("Vehicles RTM API Tests", () => {
         await ctx.dispose();
     });
 
+    test.describe("Parameter Filtering Tests (Sheet1 RTM)", () => {
+        const postcode = "94133";
+
+        test("TC_02: availability filter = released,pre-order", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&availability=released,pre-order`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            const allowed = ["released", "pre-order"];
+            for (const vehicle of vehicles) {
+                if (vehicle.availability) {
+                    expect(allowed).toContain(vehicle.availability.toLowerCase());
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_03: electric_range filter = 300", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&electric_range=300`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                if (vehicle.electric_range !== undefined && vehicle.electric_range !== null) {
+                    expect(vehicle.electric_range).toBeGreaterThanOrEqual(300);
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_04: form_factor filter = sedan,suv", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&form_factor=sedan,suv`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            const allowed = ["sedan", "suv"];
+            for (const vehicle of vehicles) {
+                if (vehicle.form_factor) {
+                    const formFactor = Array.isArray(vehicle.form_factor) ? vehicle.form_factor : [vehicle.form_factor];
+                    const hasMatch = formFactor.some((f: string) => allowed.some(a => f.toLowerCase().includes(a)));
+                    expect(hasMatch).toBe(true);
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_05: fuel_type filter = bev", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&fuel_type=bev`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                const fuel = vehicle.internal_vehicle_fuel_type || vehicle.fuel_type || vehicle.fuel;
+                if (fuel) {
+                    expect(fuel.toLowerCase()).toBe("bev");
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_06: fuel_type filter = gas", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&fuel_type=gas`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                const fuel = vehicle.internal_vehicle_fuel_type || vehicle.fuel_type || vehicle.fuel;
+                if (fuel) {
+                    expect(fuel.toLowerCase()).toBe("gas");
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_07: include_used_vehicles filter", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&include_used_vehicles=true`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            expect(Array.isArray(vehicles)).toBeTruthy();
+            await ctx.dispose();
+        });
+
+        test("TC_08: make filter = ford,chevrolet", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&make=ford,chevrolet`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            const allowed = ["ford", "chevrolet"];
+            for (const vehicle of vehicles) {
+                if (vehicle.make) {
+                    expect(allowed).toContain(vehicle.make.toLowerCase());
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_09: model filter = 3", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&model=3`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                if (vehicle.model) {
+                    expect(vehicle.model.toString().toLowerCase()).toContain("3");
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_10: model_year filter = 2020,2021", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&model_year=2020,2021`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            const allowed = [2020, 2021, "2020", "2021"];
+            for (const vehicle of vehicles) {
+                if (vehicle.model_year) {
+                    expect(allowed).toContain(vehicle.model_year);
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("TC_11: total_range filter = 300", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&total_range=300`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                if (vehicle.total_range !== undefined && vehicle.total_range !== null) {
+                    expect(vehicle.total_range).toBeGreaterThanOrEqual(300);
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("with_ids filter = specific vehicles", async () => {
+            const ctx = await createApiContext();
+            const handle1 = "Tesla_Model_3_Long_Range_AWD_BEV_2021";
+            const handle2 = "Volkswagen_ID.4__BEV_2021";
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&with_ids=${handle1},${handle2}`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            const allowed = [handle1, handle2];
+            for (const vehicle of vehicles) {
+                const id = vehicle.handle || vehicle.id || vehicle.internal_id;
+                if (id) {
+                    expect(allowed).toContain(id);
+                }
+            }
+            await ctx.dispose();
+        });
+    });
 });
