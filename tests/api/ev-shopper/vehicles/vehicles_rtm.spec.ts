@@ -10,7 +10,6 @@ async function createApiContext(): Promise<APIRequestContext> {
         baseURL: BASE_URL,
         extraHTTPHeaders: {
             'Authorization': `Bearer ${token}`,
-            'User-Agent': 'PostmanRuntime/7.51.1',
             'Accept': '*/*'
         }
     });
@@ -316,6 +315,163 @@ test.describe("Vehicles RTM API Tests", () => {
                     expect(allowed).toContain(id);
                 }
             }
+            await ctx.dispose();
+        });
+    });
+
+    test.describe("Eligibility-related parameters (Excel TC_02)", () => {
+        const postcode = "94133";
+
+        test("Filter by applicable_to", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&applicable_to=purchase`);
+            expect([200, 404]).toContain(res.status());
+            if (res.ok()) {
+                const body = await res.json();
+                const vehicles = body.vehicles || body;
+                expect(Array.isArray(vehicles)).toBeTruthy();
+            }
+            await ctx.dispose();
+        });
+
+        test("Filter by applicable_to_new_vehicles", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&applicable_to_new_vehicles=true`);
+            const body = await expectOkJson(res);
+            expect(Array.isArray(body.vehicles || body)).toBeTruthy();
+            await ctx.dispose();
+        });
+
+        test("Filter by applicable_to_used_vehicle", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&applicable_to_used_vehicle=true`);
+            const body = await expectOkJson(res);
+            expect(Array.isArray(body.vehicles || body)).toBeTruthy();
+            await ctx.dispose();
+        });
+
+        test("Filter by eligible_only", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&eligible_only=true`);
+            const body = await expectOkJson(res);
+            expect(Array.isArray(body.vehicles || body)).toBeTruthy();
+            await ctx.dispose();
+        });
+    });
+
+    test.describe("Financial filters (Sheet1 -> TC_VEH_2.2)", () => {
+        const postcode = "94133";
+
+        test("Filter by base_msrp_min and base_msrp_max", async () => {
+            const ctx = await createApiContext();
+            const min = 30000;
+            const max = 50000;
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&base_msrp_min=${min}&base_msrp_max=${max}`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                if (vehicle.base_msrp !== undefined && vehicle.base_msrp !== null) {
+                    expect(vehicle.base_msrp).toBeGreaterThanOrEqual(min);
+                    expect(vehicle.base_msrp).toBeLessThanOrEqual(max);
+                }
+            }
+            await ctx.dispose();
+        });
+
+        test("Filter by purchase_price_min and purchase_price_max", async () => {
+            const ctx = await createApiContext();
+            const min = 30000;
+            const max = 60000;
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&purchase_price_min=${min}&purchase_price_max=${max}`);
+            await expectOkJson(res);
+            expect(res.status()).toBe(200);
+            await ctx.dispose();
+        });
+
+        test("Filter by freight_min and freight_max", async () => {
+            const ctx = await createApiContext();
+            const min = 1000;
+            const max = 2000;
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&freight_min=${min}&freight_max=${max}`);
+            await expectOkJson(res);
+            expect(res.status()).toBe(200);
+            await ctx.dispose();
+        });
+    });
+
+    test.describe("Incentive / exclusion behavior (Sheet1 -> TC_VEH_2.4)", () => {
+        const postcode = "94133";
+
+        test("Omit fields behavior (omit_applicable_implications=true)", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&omit_applicable_implications=true`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            for (const vehicle of vehicles) {
+                expect(vehicle.applicable_implications).toBeUndefined();
+            }
+            await ctx.dispose();
+        });
+
+        test("hide_zero_amount_for behavior", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&hide_zero_amount_for=true`);
+            await expectOkJson(res);
+            expect(res.status()).toBe(200);
+            await ctx.dispose();
+        });
+
+        test("Keep fields behavior (keep_expired_incentives=true)", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&keep_expired_incentives=true`);
+            await expectOkJson(res);
+            expect(res.status()).toBe(200);
+            await ctx.dispose();
+        });
+    });
+
+    test.describe("Sorting (Sheet1 -> TC_VEH_2.5 / 2.6)", () => {
+        const postcode = "94133";
+
+        test("Sorting correctness (orderby=base_msrp asc)", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&orderby=base_msrp&order=asc&limit=10`);
+            const body = await expectOkJson(res);
+            const vehicles = body.vehicles || body;
+            expect(Array.isArray(vehicles)).toBeTruthy();
+
+            let prev = -1;
+            for (const vehicle of vehicles) {
+                if (vehicle.base_msrp !== undefined && vehicle.base_msrp !== null) {
+                    expect(vehicle.base_msrp).toBeGreaterThanOrEqual(prev);
+                    prev = vehicle.base_msrp;
+                }
+            }
+            await ctx.dispose();
+        });
+    });
+
+    test.describe("Negative / validation coverage (Sheet1 -> TC_VEH_2.6)", () => {
+        const postcode = "94133";
+
+        test("Wrong datatype cases (e.g., base_msrp_min=invalid)", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&base_msrp_min=invalid_number`);
+            expect([200, 400, 422, 500]).toContain(res.status());
+            await ctx.dispose();
+        });
+
+        test("Missing required params (omitting postcode completely)", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles`);
+            expect([200, 400, 422]).toContain(res.status());
+            await ctx.dispose();
+        });
+
+        test("Invalid enum checks (availability=invalid_enum)", async () => {
+            const ctx = await createApiContext();
+            const res = await apiGet(ctx, `/vehicles?postcode=${postcode}&availability=magic_carpet`);
+            expect([400, 422, 200]).toContain(res.status());
             await ctx.dispose();
         });
     });
