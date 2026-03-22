@@ -1,10 +1,12 @@
 import { test, expect } from "@playwright/test";
 import { getBearerToken } from "../../../../utils/tokenManager";
 
+const BASE_URL = process.env.BASE_URL || 'https://api.beta.zappyride.com';
+
 test.describe("Unified Vehicles API Tests", () => {
     test("GET /unified-vehicles with postcode 94044", async ({ request }) => {
         const token = await getBearerToken();
-        const response = await request.get("https://api.d.zappyride.com/unified-vehicles", {
+        const response = await request.get(`${BASE_URL}/unified-vehicles`, {
             params: {
                 postcode: "94044",
             },
@@ -30,7 +32,7 @@ test.describe("Unified Vehicles API Tests", () => {
         const token = await getBearerToken();
 
         // Step 2: Make a GET request to the unified-vehicles endpoint with specific query parameters
-        const response = await request.get("https://api.d.zappyride.com/unified-vehicles", {
+        const response = await request.get(`${BASE_URL}/unified-vehicles`, {
             params: {
                 include_extra_fields: "equivalent_gas_vehicle",
                 postcode: "94044",
@@ -41,7 +43,7 @@ test.describe("Unified Vehicles API Tests", () => {
                 "X-Force-JDP-Data": "0",
                 "X-Jdp-Client-Id": "0",
                 "X-Silent-Auth": "123",
-                "User-Agent": "PostmanRuntime/7.51.1",
+                //
                 Accept: "*/*",
             },
         });
@@ -100,7 +102,7 @@ test.describe("Unified Vehicles API Tests", () => {
         const token = await getBearerToken();
 
         // Step 2: Make GET request to the aggregate endpoint
-        const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+        const response = await request.get(`${BASE_URL}/unified-vehicles/aggregate`, {
             params: {
                 attrId: "make",
                 attrLabel: "make",
@@ -108,7 +110,7 @@ test.describe("Unified Vehicles API Tests", () => {
             },
             headers: {
                 Authorization: `Bearer ${token}`,
-                "User-Agent": "PostmanRuntime/7.51.1",
+                //
                 Accept: "*/*",
             },
         });
@@ -144,14 +146,14 @@ test.describe("Unified Vehicles API Tests", () => {
     test.describe("Edge Cases for /unified-vehicles/aggregate", () => {
         test("Missing required attrId parameter", async ({ request }) => {
             const token = await getBearerToken();
-            const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+            const response = await request.get(`${BASE_URL}/unified-vehicles/aggregate`, {
                 params: {
                     attrLabel: "make",
                     labelTemplate: "Make: __make__"
                 },
                 headers: {
                     Authorization: `Bearer ${token}`,
-                    "User-Agent": "PostmanRuntime/7.51.1",
+                    //
                     Accept: "*/*",
                 },
             });
@@ -167,7 +169,7 @@ test.describe("Unified Vehicles API Tests", () => {
 
         test("Invalid attrId parameter", async ({ request }) => {
             const token = await getBearerToken();
-            const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+            const response = await request.get(`${BASE_URL}/unified-vehicles/aggregate`, {
                 params: {
                     attrId: "invalid_attribute_name",
                     attrLabel: "make",
@@ -191,7 +193,7 @@ test.describe("Unified Vehicles API Tests", () => {
 
         test("Omitted labelTemplate uses default label", async ({ request }) => {
             const token = await getBearerToken();
-            const response = await request.get("https://api.d.zappyride.com/unified-vehicles/aggregate", {
+            const response = await request.get(`${BASE_URL}/unified-vehicles/aggregate`, {
                 params: {
                     attrId: "make",
                     attrLabel: "make"

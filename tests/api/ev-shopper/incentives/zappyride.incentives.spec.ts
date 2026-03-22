@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { getBearerToken } from "../../../../utils/tokenManager";
 
-const API_URL = "https://api.d.zappyride.com/incentives";
+const API_URL = `${process.env.BASE_URL || 'https://api.beta.zappyride.com'}/incentives`;
 const POSTCODE_US = "94133"; // San Francisco, CA
 const POSTCODE_CA = "M5V1E3"; // Toronto, ON
 
