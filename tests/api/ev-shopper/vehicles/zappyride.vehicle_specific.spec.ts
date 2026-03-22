@@ -1,11 +1,9 @@
 import { test, expect } from "@playwright/test";
 import { getBearerToken } from "../../../../utils/tokenManager";
 
-const BASE_URL = process.env.BASE_URL || 'https://api.beta.zappyride.com';
-
 test("GET /vehicles with postcode 94044", async ({ request }) => {
     const token = await getBearerToken();
-    const response = await request.get(`${BASE_URL}/vehicles`, {
+    const response = await request.get("https://api.d.zappyride.com/vehicles", {
         params: {
             postcode: "94044",
         },
